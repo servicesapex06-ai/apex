@@ -392,7 +392,7 @@ nav.mobile{display:none}
   .hero-grid{grid-template-columns:1fr}
   .hero-left{padding:54px 0 50px;position:relative;z-index:2}
   .hero-right{position:absolute;inset:0;z-index:1}
-  .hero-media{left:0!important;clip-path:none!important;opacity:.5;background-position:70% center!important;background-size:cover!important}
+  .hero-media{left:0!important;clip-path:none!important;opacity:1;background-position:70% center!important;background-size:cover!important}
   .hero-media::after{display:none!important}
   .hero-wedge{display:none}
   .feat-grid{grid-template-columns:1fr 1fr}
