@@ -420,6 +420,7 @@ nav.mobile{display:none}
   .util .ic.hide-sm{display:none}
   .util .wrap{height:auto;padding:8px 16px}
   .util .ic{font-size:12px}
+  .util .hide-mob{display:none}
   .feat-grid,.serv-grid,.fgrid,.foot-grid,.badge-row,.page-statbar .wrap,.zones-link-grid{grid-template-columns:1fr}
   .panne-content{padding:24px 20px}
   .panne-content.on{grid-template-columns:1fr}
