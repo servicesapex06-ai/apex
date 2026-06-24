@@ -383,8 +383,6 @@ nav.mobile{display:none}
 @media(max-width:980px){
   nav.main{display:none}
   .burger{display:block}
-  .head-cta-btn{font-size:0;padding:12px;gap:0}
-  .head-cta-btn svg{width:22px;height:22px}
   nav.mobile{position:fixed;inset:0 0 0 auto;width:min(320px,82vw);background:#fff;transform:translateX(100%);
     transition:.25s;z-index:80;padding:90px 28px 28px;display:flex;flex-direction:column;gap:4px;box-shadow:-20px 0 60px rgba(0,0,0,.2)}
   nav.mobile.open{transform:translateX(0)}
@@ -392,8 +390,10 @@ nav.mobile{display:none}
   .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.5);opacity:0;pointer-events:none;transition:.25s;z-index:70}
   .scrim.open{opacity:1;pointer-events:auto}
   .hero-grid{grid-template-columns:1fr}
-  .hero-left{padding:54px 0 50px}
-  .hero-right{display:none}
+  .hero-left{padding:54px 0 50px;position:relative;z-index:2}
+  .hero-right{position:absolute;inset:0;z-index:1}
+  .hero-media{left:0!important;clip-path:none!important;opacity:.3}
+  .hero-wedge{display:none}
   .feat-grid{grid-template-columns:1fr 1fr}
   .serv-grid{grid-template-columns:1fr 1fr}
   .about-grid,.process-grid,.zones-split,.zones-bottom-links,.vs-grid,.cases-list,.reas-grid,.zone-da{grid-template-columns:1fr;gap:20px}
@@ -418,6 +418,8 @@ nav.mobile{display:none}
 }
 @media(max-width:620px){
   .util .ic.hide-sm{display:none}
+  .util .wrap{height:auto;padding:8px 16px}
+  .util .ic{font-size:12px}
   .feat-grid,.serv-grid,.fgrid,.foot-grid,.badge-row,.page-statbar .wrap,.zones-link-grid{grid-template-columns:1fr}
   .panne-content{padding:24px 20px}
   .panne-content.on{grid-template-columns:1fr}
@@ -427,8 +429,8 @@ nav.mobile{display:none}
   .sec{padding:72px 0}
   .page-sec{padding:48px 0}
   .trust-logos{gap:24px}
-  .trust-head{flex-direction:column;align-items:flex-start}
-  .trust-head-badge{width:100px;height:100px}
+  .trust-head{flex-direction:column-reverse;align-items:center;text-align:center}
+  .trust-head-badge{width:160px;height:160px}
   .tarif-table th,.tarif-table td{padding:12px 14px;font-size:13px}
   .maillage{flex-direction:column;padding:24px 20px}
   .maillage-links{width:100%}
@@ -441,7 +443,10 @@ nav.mobile{display:none}
   .wa-card{padding:20px 16px}
   .wa-card .wa-head{margin-bottom:14px}
   .wa-card .wa-title{font-size:clamp(18px,5vw,24px)}
-  .wa-form input{flex:1;min-width:100%}
+  .wa-form{flex-direction:column}
+  .wa-form input{width:100%}
+  .wa-form .geo-btn{width:100%;justify-content:center}
+  .wa-form .wa-submit{width:100%;justify-content:center}
   .google-cta-left{flex-direction:column;gap:8px}
   .google-cta-score{font-size:24px}
   .page-hero h1{font-size:clamp(28px,7vw,54px)}
@@ -449,8 +454,9 @@ nav.mobile{display:none}
   .about-img{height:280px}
   .process-grid{gap:16px}
   .route-arrow svg{width:32px;height:32px}
-  .callbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:55;background:var(--orange);color:#fff;
-    align-items:center;justify-content:center;gap:10px;padding:14px;font-family:'Barlow Condensed',sans-serif;
-    text-transform:uppercase;font-weight:700;letter-spacing:1px;font-size:18px;box-shadow:0 -6px 20px rgba(0,0,0,.2)}
-  body{padding-bottom:54px}
+  .callbar{display:none}
+  .head-cta-btn{font-size:13px;padding:10px 14px;gap:6px}
+  .head-cta-btn svg{width:16px;height:16px}
+  .rev-grid{grid-template-columns:1fr;overflow-x:auto;display:flex;gap:16px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-bottom:8px}
+  .rcard{min-width:85vw;scroll-snap-align:start;flex:none}
 }
