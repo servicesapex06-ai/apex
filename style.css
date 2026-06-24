@@ -390,11 +390,10 @@ nav.mobile{display:none}
   .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.5);opacity:0;pointer-events:none;transition:.25s;z-index:70}
   .scrim.open{opacity:1;pointer-events:auto}
   .hero-grid{grid-template-columns:1fr}
-  .hero-left{padding:40px 0 36px;position:relative;z-index:2}
-  .hero{display:flex;flex-direction:column}
-  .hero-right{position:relative;height:250px;order:2}
-  .hero-media{position:absolute;inset:0;left:0!important;clip-path:none!important;opacity:1;background-position:center center!important;background-size:cover!important}
-  .hero-media::after{display:none!important}
+  .hero-left{padding:54px 0 50px;position:relative;z-index:2}
+  .hero-right{position:absolute;inset:0;z-index:1}
+  .hero-media{left:0!important;clip-path:none!important;opacity:.4;background-position:70% center!important;background-size:cover!important}
+  .hero-media::after{background:linear-gradient(180deg,transparent 0%,rgba(22,22,22,.6) 100%)!important}
   .hero-wedge{display:none}
   .feat-grid{grid-template-columns:1fr 1fr}
   .serv-grid{grid-template-columns:1fr 1fr}
