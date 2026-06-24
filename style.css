@@ -418,7 +418,7 @@ nav.mobile{display:none}
 }
 @media(max-width:620px){
   .util .ic.hide-sm{display:none}
-  .util .wrap{height:auto;padding:8px 16px}
+  .util .wrap{height:auto;padding:8px 16px;justify-content:center}
   .util .ic{font-size:12px}
   .util .hide-mob{display:none}
   .feat-grid,.serv-grid,.fgrid,.foot-grid,.badge-row,.page-statbar .wrap,.zones-link-grid{grid-template-columns:1fr}
