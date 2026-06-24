@@ -1,0 +1,276 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - img [ref=e5]
+    - generic [ref=e8]:
+      - text: Disponible 24 h / 24 — 7 j / 7.
+      - link "Appelez maintenant" [ref=e9] [cursor=pointer]:
+        - /url: tel:+33624730672
+  - banner [ref=e10]:
+    - generic [ref=e11]:
+      - link "APEX Dépannage — accueil" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - img "APEX Dépannage" [ref=e13]
+      - generic [ref=e14]:
+        - link "Appelez maintenant — 06 24 73 06 72" [ref=e15] [cursor=pointer]:
+          - /url: tel:+33624730672
+          - img [ref=e16]
+          - text: Appelez maintenant — 06 24 73 06 72
+        - button "Ouvrir le menu" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+  - navigation [ref=e21]:
+    - link "Accueil" [ref=e22] [cursor=pointer]:
+      - /url: /
+    - link "Dépannage Nice" [ref=e23] [cursor=pointer]:
+      - /url: /depannage-nice
+    - link "Remorquage Nice" [ref=e24] [cursor=pointer]:
+      - /url: /remorquage-nice
+    - link "Épaves" [ref=e25] [cursor=pointer]:
+      - /url: /enlevement-epaves-nice
+    - link "Tarifs" [ref=e26] [cursor=pointer]:
+      - /url: /tarifs
+    - link "Contact" [ref=e27] [cursor=pointer]:
+      - /url: /contact
+    - link "Appeler le 06 24 73 06 72" [ref=e28] [cursor=pointer]:
+      - /url: tel:+33624730672
+  - generic [ref=e30]:
+    - generic [ref=e31]:
+      - link "Accueil" [ref=e32] [cursor=pointer]:
+        - /url: /
+      - text: / Tarifs
+    - generic [ref=e33]: Tarifs
+    - heading "Tarifs dépannage et remorquage à Nice" [level=1] [ref=e34]:
+      - text: Tarifs dépannage
+      - text: et remorquage à Nice
+    - paragraph [ref=e35]: Nous vous communiquons un devis clair par téléphone avant d'envoyer notre équipe. Pas de surprise à l'arrivée.
+    - link "Demander un devis gratuit" [ref=e36] [cursor=pointer]:
+      - /url: tel:+33624730672
+      - img [ref=e37]
+      - text: Demander un devis gratuit
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - generic [ref=e43]: Transparence
+      - heading "Pourquoi nous affichons nos tarifs" [level=2] [ref=e44]
+      - paragraph [ref=e45]: La majorité des dépanneurs ne communiquent pas leurs tarifs en ligne. Nous faisons le choix inverse. Le tarif exact dépend de votre situation et de la distance — c'est pourquoi nous confirmons toujours le prix par téléphone avant d'intervenir. Si notre tarif ne vous convient pas, vous êtes libre de raccrocher. Aucun frais.
+    - img "Technicien Apex Dépannage intervient sous capot" [ref=e47]
+  - generic [ref=e49]:
+    - generic [ref=e50]:
+      - generic [ref=e51]: Grille tarifaire
+      - heading "Nos tarifs indicatifs" [level=2] [ref=e52]
+    - heading "Dépannage sur place à Nice" [level=3] [ref=e53]:
+      - img [ref=e54]
+      - text: Dépannage sur place à Nice
+    - table [ref=e56]:
+      - rowgroup [ref=e57]:
+        - row "Prestation Tarif" [ref=e58]:
+          - columnheader "Prestation" [ref=e59]
+          - columnheader "Tarif" [ref=e60]
+      - rowgroup [ref=e61]:
+        - row "Diagnostic et dépannage sur place À partir de 80 €" [ref=e62]:
+          - cell "Diagnostic et dépannage sur place" [ref=e63]
+          - cell "À partir de 80 €" [ref=e64]
+        - row "Démarrage batterie à plat À partir de 80 €" [ref=e65]:
+          - cell "Démarrage batterie à plat" [ref=e66]
+          - cell "À partir de 80 €" [ref=e67]
+        - row "Changement de roue / crevaison À partir de 80 €" [ref=e68]:
+          - cell "Changement de roue / crevaison" [ref=e69]
+          - cell "À partir de 80 €" [ref=e70]
+        - row "Vidange réservoir erreur carburant À partir de 100 €" [ref=e71]:
+          - cell "Vidange réservoir erreur carburant" [ref=e72]
+          - cell "À partir de 100 €" [ref=e73]
+        - row "Ouverture de portière À partir de 80 €" [ref=e74]:
+          - cell "Ouverture de portière" [ref=e75]
+          - cell "À partir de 80 €" [ref=e76]
+        - row "Dépannage en parking souterrain À partir de 90 €" [ref=e77]:
+          - cell "Dépannage en parking souterrain" [ref=e78]
+          - cell "À partir de 90 €" [ref=e79]
+    - paragraph [ref=e80]: Tarifs indicatifs HT. Tarif définitif confirmé par téléphone avant intervention.
+    - heading "Remorquage au départ de Nice" [level=3] [ref=e81]:
+      - img [ref=e82]
+      - text: Remorquage au départ de Nice
+    - table [ref=e87]:
+      - rowgroup [ref=e88]:
+        - row "Destination Tarif" [ref=e89]:
+          - columnheader "Destination" [ref=e90]
+          - columnheader "Tarif" [ref=e91]
+      - rowgroup [ref=e92]:
+        - row "Intra-muros Nice À partir de 90 €" [ref=e93]:
+          - cell "Intra-muros Nice" [ref=e94]
+          - cell "À partir de 90 €" [ref=e95]
+        - row "Nice → reste du 06 À partir de 120 €" [ref=e96]:
+          - cell "Nice → reste du 06" [ref=e97]
+          - cell "À partir de 120 €" [ref=e98]
+        - row "Nice → PACA À partir de 180 €" [ref=e99]:
+          - cell "Nice → PACA" [ref=e100]
+          - cell "À partir de 180 €" [ref=e101]
+        - row "Nice → France entière Sur devis" [ref=e102]:
+          - cell "Nice → France entière" [ref=e103]
+          - cell "Sur devis" [ref=e104]
+        - row "Nice → Europe Sur devis" [ref=e105]:
+          - cell "Nice → Europe" [ref=e106]
+          - cell "Sur devis" [ref=e107]
+        - row "Moto / scooter À partir de 90 €" [ref=e108]:
+          - cell "Moto / scooter" [ref=e109]
+          - cell "À partir de 90 €" [ref=e110]
+        - row "Véhicule de prestige Sur devis" [ref=e111]:
+          - cell "Véhicule de prestige" [ref=e112]
+          - cell "Sur devis" [ref=e113]
+    - paragraph [ref=e114]: Tarifs indicatifs HT. Tarif définitif confirmé par téléphone avant intervention.
+    - heading "Enlèvement d'épave" [level=3] [ref=e115]:
+      - img [ref=e116]
+      - text: Enlèvement d'épave
+    - table [ref=e118]:
+      - rowgroup [ref=e119]:
+        - row "Prestation Tarif" [ref=e120]:
+          - columnheader "Prestation" [ref=e121]
+          - columnheader "Tarif" [ref=e122]
+      - rowgroup [ref=e123]:
+        - row "Enlèvement épave Nice et 06 Gratuit" [ref=e124]:
+          - cell "Enlèvement épave Nice et 06" [ref=e125]
+          - cell "Gratuit" [ref=e126]
+        - row "Démarches administratives Gratuit" [ref=e127]:
+          - cell "Démarches administratives" [ref=e128]
+          - cell "Gratuit" [ref=e129]
+        - row "Certificat de destruction Gratuit" [ref=e130]:
+          - cell "Certificat de destruction" [ref=e131]
+          - cell "Gratuit" [ref=e132]
+    - paragraph [ref=e133]: L'enlèvement d'épave est gratuit car la valeur de recyclage du véhicule couvre nos coûts.
+  - generic [ref=e135]:
+    - generic [ref=e136]:
+      - generic [ref=e137]: Comprendre
+      - heading "Qu'est-ce qui détermine le prix final ?" [level=2] [ref=e138]
+    - generic [ref=e139]:
+      - generic [ref=e140]:
+        - img [ref=e142]
+        - heading "Distance" [level=3] [ref=e145]
+        - paragraph [ref=e146]: Pour le remorquage, la distance entre prise en charge et destination est le facteur principal.
+      - generic [ref=e147]:
+        - img [ref=e149]
+        - heading "Nature de la panne" [level=3] [ref=e151]
+        - paragraph [ref=e152]: Un démarrage de batterie est moins complexe qu'une vidange après erreur de carburant.
+      - generic [ref=e153]:
+        - img [ref=e155]
+        - heading "Type de véhicule" [level=3] [ref=e160]
+        - paragraph [ref=e161]: Utilitaire, prestige ou deux-roues nécessitent un équipement spécifique.
+      - generic [ref=e162]:
+        - img [ref=e164]
+        - heading "Accessibilité" [level=3] [ref=e167]
+        - paragraph [ref=e168]: Sous-sol profond, terrain non stabilisé ou treuillage demandent plus de temps et de matériel.
+  - generic [ref=e170]:
+    - generic [ref=e171]:
+      - generic [ref=e172]: Assurance
+      - heading "Votre assurance peut couvrir l'intervention" [level=2] [ref=e173]
+      - paragraph [ref=e174]: Avant de nous appeler, vérifiez votre contrat d'assistance. De nombreux contrats couvrent totalement ou partiellement le dépannage et le remorquage. Si vous êtes couvert, signalez-le lors de votre appel.
+    - generic [ref=e175]:
+      - generic [ref=e176]: Nous travaillons avec
+      - generic [ref=e177]:
+        - img [ref=e179]:
+          - generic [ref=e180]: AXA
+        - img [ref=e182]:
+          - generic [ref=e183]: MAAF
+        - img [ref=e185]:
+          - generic [ref=e186]: Allianz
+        - img [ref=e188]:
+          - generic [ref=e189]: MACIF
+        - img [ref=e191]:
+          - generic [ref=e192]: Groupama
+    - generic [ref=e193]:
+      - generic [ref=e194]:
+        - img [ref=e196]
+        - generic [ref=e199]: Pas de supplément nuit
+        - generic [ref=e200]: Tarifs identiques 24h/24
+      - generic [ref=e201]:
+        - img [ref=e203]
+        - generic [ref=e206]: Facture remise
+        - generic [ref=e207]: Document détaillé après intervention
+      - generic [ref=e208]:
+        - img [ref=e210]
+        - generic [ref=e213]: Déplacement inclus
+        - generic [ref=e214]: Aucun frais ajouté après coup
+      - generic [ref=e215]:
+        - img [ref=e217]
+        - generic [ref=e220]: Même tarif week-end
+        - generic [ref=e221]: Pas de majoration samedi/dimanche
+    - generic [ref=e222]:
+      - strong [ref=e223]: "En cas de doute :"
+      - text: appelez votre assistance en premier. Si elle ne peut pas intervenir dans les délais, appelez-nous.
+  - generic [ref=e225]:
+    - generic [ref=e226]:
+      - generic [ref=e227]: FAQ
+      - heading "Questions fréquentes sur nos tarifs" [level=2] [ref=e228]
+    - generic [ref=e229]:
+      - group [ref=e230]:
+        - generic "Faut-il payer avant ou après l'intervention ? +" [ref=e231] [cursor=pointer]
+      - group [ref=e232]:
+        - generic "Y a-t-il un supplément de nuit ou week-end ? +" [ref=e233] [cursor=pointer]
+      - group [ref=e234]:
+        - generic "Le déplacement est-il facturé en plus ? +" [ref=e235] [cursor=pointer]
+      - group [ref=e236]:
+        - generic "Puis-je obtenir une facture ? +" [ref=e237] [cursor=pointer]
+      - group [ref=e238]:
+        - generic "Que se passe-t-il si le tarif final dépasse le devis ? +" [ref=e239] [cursor=pointer]
+  - generic [ref=e241]:
+    - paragraph [ref=e242]: Découvrez nos prestations en détail
+    - generic [ref=e243]:
+      - link "Dépannage Nice" [ref=e244] [cursor=pointer]:
+        - /url: /depannage-nice
+      - link "Remorquage Nice" [ref=e245] [cursor=pointer]:
+        - /url: /remorquage-nice
+      - link "Épaves Nice" [ref=e246] [cursor=pointer]:
+        - /url: /enlevement-epaves-nice
+  - generic [ref=e248]:
+    - heading "Besoin d'un devis maintenant ?" [level=2] [ref=e249]
+    - paragraph [ref=e250]: Tarif annoncé par téléphone en 2 minutes. Sans engagement.
+    - generic [ref=e251]:
+      - link "Appeler le 06 24 73 06 72" [ref=e252] [cursor=pointer]:
+        - /url: tel:+33624730672
+        - img [ref=e253]
+        - text: Appeler le 06 24 73 06 72
+      - link "WhatsApp" [ref=e255] [cursor=pointer]:
+        - /url: https://wa.me/33624730672?text=Bonjour%2C+je+souhaite+un+devis.
+        - img [ref=e256]
+        - text: WhatsApp
+  - contentinfo [ref=e258]:
+    - generic [ref=e259]:
+      - generic [ref=e260]:
+        - generic [ref=e261]:
+          - img "APEX Dépannage" [ref=e262]
+          - paragraph [ref=e263]: Votre service de remorquage et d'assistance, rapide et fiable, au départ de Nice et partout en Europe.
+        - generic [ref=e264]:
+          - heading "Navigation" [level=4] [ref=e265]
+          - link "Accueil" [ref=e266] [cursor=pointer]:
+            - /url: /
+          - link "Dépannage Nice" [ref=e267] [cursor=pointer]:
+            - /url: /depannage-nice
+          - link "Remorquage Nice" [ref=e268] [cursor=pointer]:
+            - /url: /remorquage-nice
+          - link "Épaves" [ref=e269] [cursor=pointer]:
+            - /url: /enlevement-epaves-nice
+          - link "Tarifs" [ref=e270] [cursor=pointer]:
+            - /url: /tarifs
+        - generic [ref=e271]:
+          - heading "Zones" [level=4] [ref=e272]
+          - link "Nice Aéroport" [ref=e273] [cursor=pointer]:
+            - /url: /zones/depannage-nice-aeroport
+          - link "Promenade des Anglais" [ref=e274] [cursor=pointer]:
+            - /url: /zones/depannage-nice-promenade-anglais
+          - link "Monaco" [ref=e275] [cursor=pointer]:
+            - /url: /zones/depannage-monaco
+          - link "Cannes" [ref=e276] [cursor=pointer]:
+            - /url: /zones/depannage-cannes
+          - link "Antibes" [ref=e277] [cursor=pointer]:
+            - /url: /zones/depannage-antibes
+        - generic [ref=e278]:
+          - heading "Contact" [level=4] [ref=e279]
+          - link "06 24 73 06 72" [ref=e280] [cursor=pointer]:
+            - /url: tel:+33624730672
+          - generic [ref=e281]:
+            - text: info@apexdepannage.fr
+            - text: Nice (06) · Côte d'Azur · Europe
+            - text: Ouvert 24 h / 24 — 7 j / 7
+      - generic [ref=e282]:
+        - generic [ref=e283]: © 2026 APEX Dépannage. Tous droits réservés.
+        - generic [ref=e284]: Assuré · SIRET XXX XXX XXX XXXXX
+  - link "Appeler — 06 24 73 06 72" [ref=e285] [cursor=pointer]:
+    - /url: tel:+33624730672
+    - img [ref=e286]
+    - text: Appeler — 06 24 73 06 72

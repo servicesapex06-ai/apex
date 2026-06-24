@@ -1,0 +1,234 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e5]
+      - generic [ref=e8]:
+        - text: Disponible 24 h / 24 — 7 j / 7.
+        - link "Appelez maintenant" [ref=e9] [cursor=pointer]:
+          - /url: tel:+33624730672
+    - generic [ref=e10]:
+      - img [ref=e11]
+      - generic [ref=e14]: Nice & Côte d'Azur · Toute l'Europe
+  - banner [ref=e15]:
+    - generic [ref=e16]:
+      - link "APEX Dépannage — accueil" [ref=e17] [cursor=pointer]:
+        - /url: /
+        - img "APEX Dépannage" [ref=e18]
+      - navigation [ref=e19]:
+        - link "Accueil" [ref=e20] [cursor=pointer]:
+          - /url: /
+        - link "Dépannage" [ref=e21] [cursor=pointer]:
+          - /url: /depannage-nice
+        - link "Remorquage" [ref=e22] [cursor=pointer]:
+          - /url: /remorquage-nice
+        - link "Épaves" [ref=e23] [cursor=pointer]:
+          - /url: /enlevement-epaves-nice
+        - link "Tarifs" [ref=e24] [cursor=pointer]:
+          - /url: /tarifs
+        - link "Contact" [ref=e25] [cursor=pointer]:
+          - /url: /contact
+      - link "Appelez maintenant — 06 24 73 06 72" [ref=e27] [cursor=pointer]:
+        - /url: tel:+33624730672
+        - img [ref=e28]
+        - text: Appelez maintenant — 06 24 73 06 72
+  - generic [ref=e30]:
+    - generic [ref=e31]:
+      - generic:
+        - img
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - text: Enlèvement d'épave
+        - generic [ref=e38]: gratuit
+      - heading "Enlèvement d'épave à Nice" [level=1] [ref=e39]:
+        - text: Enlèvement
+        - text: d'épave à Nice
+      - paragraph [ref=e40]: Votre véhicule est hors d'usage, accidenté ou déclaré irréparable ? Nous l'enlevons gratuitement à Nice et gérons l'intégralité des démarches administratives de destruction à votre place.
+      - generic [ref=e41]:
+        - link "Appeler maintenant" [ref=e42] [cursor=pointer]:
+          - /url: tel:+33624730672
+          - img [ref=e43]
+          - text: Appeler maintenant
+        - link "WhatsApp" [ref=e45] [cursor=pointer]:
+          - /url: https://wa.me/33624730672?text=Bonjour%2C+j%27ai+besoin+d%27un+enl%C3%A8vement+d%27%C3%A9pave+%C3%A0+Nice.
+          - img [ref=e46]
+          - text: WhatsApp
+  - generic [ref=e49]:
+    - generic [ref=e50]:
+      - generic [ref=e51]: 100%
+      - generic [ref=e52]: Gratuit — enlèvement sans frais
+    - generic [ref=e53]:
+      - generic [ref=e54]: Inclus
+      - generic [ref=e55]: Démarches + certificat de destruction
+    - generic [ref=e56]:
+      - generic [ref=e57]: Agréé
+      - generic [ref=e58]: Centre VHU agréé préfecture
+    - generic [ref=e59]:
+      - generic [ref=e60]: 24-48h
+      - generic [ref=e61]: Intervention rapide sur Nice
+  - generic [ref=e63]:
+    - generic [ref=e64]: Définition
+    - heading "Qu'est-ce qu'un véhicule hors d'usage (VHU) ?" [level=2] [ref=e65]
+    - paragraph [ref=e66]: "Un véhicule est considéré comme épave ou VHU (Véhicule Hors d'Usage) dès lors qu'il ne peut plus circuler et qu'il est destiné à la destruction : trop endommagé suite à un accident, économiquement irréparable, immobilisé depuis longtemps, ou simplement en fin de vie. En France, la destruction d'un véhicule hors d'usage est encadrée par la loi : elle doit obligatoirement être confiée à un centre agréé VHU. Il est interdit d'abandonner un véhicule sur la voie publique ou en copropriété sous peine d'amende."
+    - generic [ref=e67]:
+      - strong [ref=e68]: "Obligation légale :"
+      - text: tout véhicule remis pour destruction doit faire l'objet d'un certificat de destruction délivré par un centre agréé préfectoral. Sans ce document, le propriétaire reste légalement responsable du véhicule.
+  - generic [ref=e70]:
+    - generic [ref=e71]:
+      - generic [ref=e72]: Votre situation
+      - heading "Votre véhicule est concerné si..." [level=2] [ref=e73]
+    - generic [ref=e74]:
+      - generic [ref=e75]: Votre voiture a été déclarée économiquement irréparable par votre assurance (VEI)
+      - generic [ref=e76]: Votre véhicule est immobilisé depuis plusieurs mois et ne redémarre plus
+      - generic [ref=e77]: Vous avez eu un accident grave et la réparation dépasse la valeur du véhicule
+      - generic [ref=e78]: Vous avez hérité d'un véhicule hors d'usage dont vous ne savez que faire
+      - generic [ref=e79]: Votre voiture a été verbalisée ou mise en demeure d'être enlevée
+      - generic [ref=e80]: Vous souhaitez vous débarrasser d'un vieux véhicule encombrant sans frais
+  - generic [ref=e82]:
+    - generic [ref=e83]:
+      - generic [ref=e84]: Processus
+      - heading "Comment se déroule un enlèvement d'épave à Nice ?" [level=2] [ref=e85]
+    - generic [ref=e86]:
+      - generic [ref=e88]:
+        - heading "Vous nous appelez" [level=3] [ref=e89]
+        - paragraph [ref=e90]: Décrivez-nous votre véhicule et sa localisation à Nice. Nous évaluons la situation en quelques minutes et confirmons la prise en charge gratuite.
+      - generic [ref=e92]:
+        - heading "Nous convenons d'un rendez-vous" [level=3] [ref=e93]
+        - paragraph [ref=e94]: Nous intervenons généralement sous 24 à 48 heures sur Nice. Pas besoin d'être présent si le véhicule est accessible.
+      - generic [ref=e96]:
+        - heading "Nous chargeons l'épave" [level=3] [ref=e97]
+        - paragraph [ref=e98]: Notre équipe arrive avec le plateau adapté. Nous chargeons votre véhicule avec soin, même en sous-sol ou en espace contraint.
+      - generic [ref=e100]:
+        - heading "Vous signez le certificat de cession" [level=3] [ref=e101]
+        - paragraph [ref=e102]: "Nous vous remettons le coupon détachable du certificat de cession sur place. Conservez-le : il prouve que vous n'êtes plus propriétaire du véhicule."
+      - generic [ref=e104]:
+        - heading "Destruction en centre agréé VHU" [level=3] [ref=e105]
+        - paragraph [ref=e106]: Votre véhicule est remis à un centre de recyclage agréé par la préfecture. Vous recevez le certificat de destruction, ce qui clôt définitivement votre responsabilité.
+  - generic [ref=e110]:
+    - generic [ref=e111]:
+      - generic [ref=e112]: Détails
+      - heading "Ce que comprend notre service d'enlèvement d'épave gratuit" [level=2] [ref=e113]
+    - generic [ref=e114]:
+      - generic [ref=e115]:
+        - heading "Inclus gratuitement" [level=3] [ref=e116]:
+          - img [ref=e117]
+          - text: Inclus gratuitement
+        - list [ref=e120]:
+          - listitem [ref=e121]:
+            - img [ref=e122]
+            - text: Déplacement sur Nice et le 06
+          - listitem [ref=e124]:
+            - img [ref=e125]
+            - text: Chargement du véhicule sur plateau
+          - listitem [ref=e127]:
+            - img [ref=e128]
+            - text: Transport vers le centre agréé VHU
+          - listitem [ref=e130]:
+            - img [ref=e131]
+            - text: Certificat de cession remis sur place
+          - listitem [ref=e133]:
+            - img [ref=e134]
+            - text: Démarches de destruction administratives
+          - listitem [ref=e136]:
+            - img [ref=e137]
+            - text: Certificat de destruction transmis
+      - generic [ref=e139]:
+        - heading "Non inclus" [level=3] [ref=e140]:
+          - img [ref=e141]
+          - text: Non inclus
+        - list [ref=e145]:
+          - listitem [ref=e146]:
+            - img [ref=e147]
+            - text: Véhicules nécessitant un désenclavement complexe (treuillage en falaise, extraction de garage enterré inaccessible) — sur devis dans ces cas
+  - generic [ref=e151]:
+    - generic [ref=e152]: Zone d'intervention
+    - heading "Enlèvement d'épave dans tout Nice et le 06" [level=2] [ref=e153]
+    - paragraph [ref=e154]: "Nous intervenons pour l'enlèvement d'épaves dans tous les quartiers de Nice : centre-ville, Promenade des Anglais, Cimiez, Saint-Isidore, Nice-Aéroport, Riquier, Vieux-Nice, et au-delà dans tout le département des Alpes-Maritimes."
+    - generic [ref=e155]:
+      - generic [ref=e156] [cursor=pointer]: Nice
+      - generic [ref=e157] [cursor=pointer]: Cannes
+      - generic [ref=e158] [cursor=pointer]: Antibes
+      - generic [ref=e159] [cursor=pointer]: Monaco
+      - generic [ref=e160] [cursor=pointer]: Menton
+      - generic [ref=e161] [cursor=pointer]: Grasse
+      - generic [ref=e162] [cursor=pointer]: Cagnes-sur-Mer
+      - generic [ref=e163] [cursor=pointer]: Villeneuve-Loubet
+      - generic [ref=e164] [cursor=pointer]: Tout le 06
+  - generic [ref=e166]:
+    - generic [ref=e167]:
+      - generic [ref=e168]: FAQ
+      - heading "Questions fréquentes — Enlèvement d'épave Nice" [level=2] [ref=e169]
+    - generic [ref=e170]:
+      - group [ref=e171]:
+        - generic "L'enlèvement d'épave est-il vraiment gratuit à Nice ? +" [ref=e172] [cursor=pointer]
+      - group [ref=e173]:
+        - generic "Faut-il obligatoirement la carte grise pour un enlèvement d'épave ? +" [ref=e174] [cursor=pointer]
+      - group [ref=e175]:
+        - generic "Que se passe-t-il si mon épave est dans un parking souterrain ? +" [ref=e176] [cursor=pointer]
+      - group [ref=e177]:
+        - generic "Puis-je faire enlever une épave qui ne m'appartient pas ? +" [ref=e178] [cursor=pointer]
+      - group [ref=e179]:
+        - generic "Combien de temps après l'appel intervenez-vous ? +" [ref=e180] [cursor=pointer]
+      - group [ref=e181]:
+        - generic "Recevrai-je bien un certificat de destruction ? +" [ref=e182] [cursor=pointer]
+  - generic [ref=e184]:
+    - paragraph [ref=e185]: Vous n'êtes pas sûr que votre véhicule soit une épave ?
+    - generic [ref=e186]:
+      - link "Dépannage Nice" [ref=e187] [cursor=pointer]:
+        - /url: /depannage-nice
+      - link "Remorquage Nice" [ref=e188] [cursor=pointer]:
+        - /url: /remorquage-nice
+      - link "Nos tarifs" [ref=e189] [cursor=pointer]:
+        - /url: /tarifs
+  - generic [ref=e191]:
+    - heading "Vous avez une épave à faire enlever à Nice ?" [level=2] [ref=e192]
+    - paragraph [ref=e193]: Appelez-nous — nous évaluons votre situation en 2 minutes et planifions l'enlèvement sous 24h.
+    - generic [ref=e194]:
+      - link "Appeler le 06 24 73 06 72" [ref=e195] [cursor=pointer]:
+        - /url: tel:+33624730672
+        - img [ref=e196]
+        - text: Appeler le 06 24 73 06 72
+      - link "WhatsApp" [ref=e198] [cursor=pointer]:
+        - /url: https://wa.me/33624730672?text=Bonjour%2C+j%27ai+besoin+d%27un+enl%C3%A8vement+d%27%C3%A9pave+%C3%A0+Nice.
+        - img [ref=e199]
+        - text: WhatsApp
+  - contentinfo [ref=e201]:
+    - generic [ref=e202]:
+      - generic [ref=e203]:
+        - generic [ref=e204]:
+          - img "APEX Dépannage" [ref=e205]
+          - paragraph [ref=e206]: Votre service de remorquage et d'assistance, rapide et fiable, au départ de Nice et partout en Europe.
+        - generic [ref=e207]:
+          - heading "Navigation" [level=4] [ref=e208]
+          - link "Accueil" [ref=e209] [cursor=pointer]:
+            - /url: /
+          - link "Dépannage Nice" [ref=e210] [cursor=pointer]:
+            - /url: /depannage-nice
+          - link "Remorquage Nice" [ref=e211] [cursor=pointer]:
+            - /url: /remorquage-nice
+          - link "Épaves" [ref=e212] [cursor=pointer]:
+            - /url: /enlevement-epaves-nice
+          - link "Tarifs" [ref=e213] [cursor=pointer]:
+            - /url: /tarifs
+        - generic [ref=e214]:
+          - heading "Zones" [level=4] [ref=e215]
+          - link "Nice Aéroport" [ref=e216] [cursor=pointer]:
+            - /url: /zones/depannage-nice-aeroport
+          - link "Promenade des Anglais" [ref=e217] [cursor=pointer]:
+            - /url: /zones/depannage-nice-promenade-anglais
+          - link "Monaco" [ref=e218] [cursor=pointer]:
+            - /url: /zones/depannage-monaco
+          - link "Cannes" [ref=e219] [cursor=pointer]:
+            - /url: /zones/depannage-cannes
+          - link "Antibes" [ref=e220] [cursor=pointer]:
+            - /url: /zones/depannage-antibes
+        - generic [ref=e221]:
+          - heading "Contact" [level=4] [ref=e222]
+          - link "06 24 73 06 72" [ref=e223] [cursor=pointer]:
+            - /url: tel:+33624730672
+          - generic [ref=e224]:
+            - text: info@apexdepannage.fr
+            - text: Nice (06) · Côte d'Azur · Europe
+            - text: Ouvert 24 h / 24 — 7 j / 7
+      - generic [ref=e225]:
+        - generic [ref=e226]: © 2026 APEX Dépannage. Tous droits réservés.
+        - generic [ref=e227]: Assuré · SIRET XXX XXX XXX XXXXX

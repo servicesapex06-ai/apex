@@ -1,0 +1,2 @@
+[  177852ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8080/zones/depannage-cannes:0
+[  177872ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8080/favicon.ico:0

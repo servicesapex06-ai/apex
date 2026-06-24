@@ -1,0 +1,2 @@
+[  136098ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8080/img/about.png:0
+[  136098ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8080/img/hero.png?v=2:0

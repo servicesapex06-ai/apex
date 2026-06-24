@@ -1,0 +1,244 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - img [ref=e5]
+    - generic [ref=e8]:
+      - text: Disponible 24 h / 24 — 7 j / 7.
+      - link "Appelez maintenant" [ref=e9] [cursor=pointer]:
+        - /url: tel:+33624730672
+  - banner [ref=e10]:
+    - generic [ref=e11]:
+      - link "APEX Dépannage — accueil" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - img "APEX Dépannage" [ref=e13]
+      - generic [ref=e14]:
+        - link "Appelez maintenant — 06 24 73 06 72" [ref=e15] [cursor=pointer]:
+          - /url: tel:+33624730672
+          - img [ref=e16]
+          - text: Appelez maintenant — 06 24 73 06 72
+        - button "Ouvrir le menu" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+  - navigation [ref=e21]:
+    - link "Accueil" [ref=e22] [cursor=pointer]:
+      - /url: /
+    - link "Dépannage Nice" [ref=e23] [cursor=pointer]:
+      - /url: /depannage-nice
+    - link "Remorquage Nice" [ref=e24] [cursor=pointer]:
+      - /url: /remorquage-nice
+    - link "Épaves" [ref=e25] [cursor=pointer]:
+      - /url: /enlevement-epaves-nice
+    - link "Tarifs" [ref=e26] [cursor=pointer]:
+      - /url: /tarifs
+    - link "Contact" [ref=e27] [cursor=pointer]:
+      - /url: /contact
+    - link "Appeler le 06 24 73 06 72" [ref=e28] [cursor=pointer]:
+      - /url: tel:+33624730672
+  - generic [ref=e32]:
+    - generic [ref=e33]:
+      - text: Dépannage auto
+      - generic [ref=e35]: 24/7
+    - heading "Dépannage auto à Nice 24/7" [level=1] [ref=e36]:
+      - text: Dépannage auto
+      - text: à Nice 24/7
+    - paragraph [ref=e37]: En panne à Nice ? Nos techniciens interviennent en moins de 30 minutes, jour et nuit, week-ends et jours fériés compris. Devis annoncé avant toute intervention.
+    - generic [ref=e38]:
+      - link "Appeler maintenant" [ref=e39] [cursor=pointer]:
+        - /url: tel:+33624730672
+        - img [ref=e40]
+        - text: Appeler maintenant
+      - link "WhatsApp" [ref=e42] [cursor=pointer]:
+        - /url: https://wa.me/33624730672?text=Bonjour%2C+j%27ai+besoin+d%27un+d%C3%A9pannage+%C3%A0+Nice.
+        - img [ref=e43]
+        - text: WhatsApp
+  - generic [ref=e46]:
+    - generic [ref=e47]:
+      - generic [ref=e48]: < 30 min
+      - generic [ref=e49]: Délai d'intervention moyen à Nice
+    - generic [ref=e50]:
+      - generic [ref=e51]: 24h/24
+      - generic [ref=e52]: 365 jours par an, sans exception
+    - generic [ref=e53]:
+      - generic [ref=e54]: 0 €
+      - generic [ref=e55]: De frais cachés, devis annoncé avant
+    - generic [ref=e56]:
+      - generic [ref=e57]: Europe
+      - generic [ref=e58]: Rapatriement toutes distances
+  - generic [ref=e60]:
+    - generic [ref=e61]: Diagnostic
+    - heading "Quel est votre problème ?" [level=2] [ref=e62]
+    - paragraph [ref=e63]: Sélectionnez votre situation — nous vous indiquons comment nous intervenons.
+    - generic [ref=e64]:
+      - button "Panne moteur" [ref=e65] [cursor=pointer]:
+        - img [ref=e66]
+        - text: Panne moteur
+      - button "Batterie à plat" [ref=e68] [cursor=pointer]:
+        - img [ref=e69]
+        - text: Batterie à plat
+      - button "Crevaison" [ref=e71] [cursor=pointer]:
+        - img [ref=e72]
+        - text: Crevaison
+      - button "Erreur de carburant" [ref=e75] [cursor=pointer]:
+        - img [ref=e76]
+        - text: Erreur de carburant
+      - button "Clés enfermées" [ref=e79] [cursor=pointer]:
+        - img [ref=e80]
+        - text: Clés enfermées
+      - button "Dépannage en sous-sol" [ref=e83] [cursor=pointer]:
+        - img [ref=e84]
+        - text: Dépannage en sous-sol
+    - generic [ref=e89]:
+      - generic [ref=e90]:
+        - heading "Dépannage panne moteur à Nice" [level=3] [ref=e91]
+        - paragraph [ref=e92]: Votre moteur refuse de démarrer ou tombe en panne en pleine route ? Nous intervenons sur place pour établir un premier diagnostic. Si la réparation est possible sur place, nous la réalisons immédiatement. Sinon, nous remorquons votre véhicule vers le garage de votre choix à Nice ou dans le 06.
+        - generic [ref=e93]:
+          - img [ref=e94]
+          - text: Intervention en moins de 30 min sur Nice
+        - link "Appeler pour cette panne" [ref=e97] [cursor=pointer]:
+          - /url: tel:+33624730672
+      - img "Technicien Apex charge une voiture sur plateau à Nice" [ref=e98]
+  - generic [ref=e100]:
+    - generic [ref=e101]:
+      - generic [ref=e102]: Comment ça marche
+      - heading "De l'appel à l'intervention — en 3 étapes" [level=2] [ref=e103]
+    - generic [ref=e104]:
+      - generic [ref=e105]:
+        - generic [ref=e106]: "01"
+        - heading "Vous appelez" [level=3] [ref=e107]
+        - paragraph [ref=e108]: Un technicien décroche en direct. Pas de boîte vocale, pas d'attente. Vous décrivez votre situation en 2 minutes.
+      - generic [ref=e109]:
+        - generic [ref=e110]: "02"
+        - heading "On évalue et on chiffre" [level=3] [ref=e111]
+        - paragraph [ref=e112]: Nous évaluons votre panne par téléphone et vous annonçons un tarif clair avant d'envoyer l'équipe. Aucune surprise à l'arrivée.
+      - generic [ref=e113]:
+        - generic [ref=e114]: "03"
+        - heading "On intervient" [level=3] [ref=e115]
+        - paragraph [ref=e116]: Notre technicien arrive en moins de 30 minutes. Il dépanne sur place ou remorque votre véhicule selon la situation.
+  - generic [ref=e120]:
+    - generic [ref=e121]: Votre véhicule entre de bonnes mains
+    - generic [ref=e122]: Équipe formée, plateau adapté, intervention soignée
+  - generic [ref=e124]:
+    - generic [ref=e125]:
+      - generic [ref=e126]:
+        - generic [ref=e127]: Zone d'intervention
+        - heading "Dépannage dans tous les quartiers de Nice" [level=2] [ref=e128]
+        - paragraph [ref=e129]: Nos équipes couvrent l'ensemble de Nice et ses accès. Où que vous soyez immobilisé, nous arrivons.
+        - generic [ref=e130]:
+          - button "Centre-ville" [ref=e131] [cursor=pointer]
+          - button "Promenade des Anglais" [ref=e132] [cursor=pointer]
+          - button "Vieux-Nice" [ref=e133] [cursor=pointer]
+          - button "Cimiez" [ref=e134] [cursor=pointer]
+          - button "Saint-Isidore" [ref=e135] [cursor=pointer]
+          - button "Nice-Aéroport" [ref=e136] [cursor=pointer]
+          - button "Riquier" [ref=e137] [cursor=pointer]
+          - button "Libération" [ref=e138] [cursor=pointer]
+          - button "Pasteur" [ref=e139] [cursor=pointer]
+          - button "Caucade" [ref=e140] [cursor=pointer]
+          - button "Saint-Roch" [ref=e141] [cursor=pointer]
+          - button "Magnan" [ref=e142] [cursor=pointer]
+          - button "Fabron" [ref=e143] [cursor=pointer]
+          - button "Les Baumettes" [ref=e144] [cursor=pointer]
+          - button "Mont-Boron" [ref=e145] [cursor=pointer]
+      - iframe [ref=e147]
+    - generic [ref=e148]:
+      - paragraph [ref=e150]: "Nous intervenons également en dehors de Nice : Cannes, Antibes, Monaco, Menton, Grasse et partout dans les Alpes-Maritimes. Pour un rapatriement longue distance, nous assurons le transport de votre véhicule partout en France et en Europe."
+      - generic [ref=e151]:
+        - link "Nice Aéroport" [ref=e152] [cursor=pointer]:
+          - /url: /zones/depannage-nice-aeroport
+          - img [ref=e153]
+          - text: Nice Aéroport
+        - link "Monaco" [ref=e156] [cursor=pointer]:
+          - /url: /zones/depannage-monaco
+          - img [ref=e157]
+          - text: Monaco
+        - link "Cannes" [ref=e160] [cursor=pointer]:
+          - /url: /zones/depannage-cannes
+          - img [ref=e161]
+          - text: Cannes
+        - link "Antibes" [ref=e164] [cursor=pointer]:
+          - /url: /zones/depannage-antibes
+          - img [ref=e165]
+          - text: Antibes
+  - generic [ref=e169]:
+    - generic [ref=e170]:
+      - generic [ref=e171]: FAQ
+      - heading "Questions fréquentes — Dépannage à Nice" [level=2] [ref=e172]
+    - generic [ref=e173]:
+      - group [ref=e174]:
+        - generic "Quel est le délai d'intervention pour un dépannage à Nice ? +" [ref=e175] [cursor=pointer]
+      - group [ref=e176]:
+        - generic "Combien coûte un dépannage à Nice ? +" [ref=e177] [cursor=pointer]
+      - group [ref=e178]:
+        - generic "Intervenez-vous la nuit et les week-ends à Nice ? +" [ref=e179] [cursor=pointer]
+      - group [ref=e180]:
+        - generic "Pouvez-vous intervenir dans un parking souterrain à Nice ? +" [ref=e181] [cursor=pointer]
+      - group [ref=e182]:
+        - generic "Êtes-vous pris en charge par les assurances auto ? +" [ref=e183] [cursor=pointer]
+      - group [ref=e184]:
+        - generic "Faites-vous aussi du remorquage depuis Nice ? +" [ref=e185] [cursor=pointer]
+  - generic [ref=e187]:
+    - paragraph [ref=e188]: Découvrez aussi nos autres services
+    - generic [ref=e189]:
+      - link "Remorquage Nice" [ref=e190] [cursor=pointer]:
+        - /url: /remorquage-nice
+      - link "Épaves Nice" [ref=e191] [cursor=pointer]:
+        - /url: /enlevement-epaves-nice
+      - link "Tarifs" [ref=e192] [cursor=pointer]:
+        - /url: /tarifs
+      - link "Contact" [ref=e193] [cursor=pointer]:
+        - /url: /contact
+  - generic [ref=e195]:
+    - heading "En panne à Nice en ce moment ?" [level=2] [ref=e196]
+    - paragraph [ref=e197]: Un technicien décroche immédiatement. Devis en 2 minutes, intervention en 30 minutes.
+    - generic [ref=e198]:
+      - link "Appeler le 06 24 73 06 72" [ref=e199] [cursor=pointer]:
+        - /url: tel:+33624730672
+        - img [ref=e200]
+        - text: Appeler le 06 24 73 06 72
+      - link "WhatsApp" [ref=e202] [cursor=pointer]:
+        - /url: https://wa.me/33624730672?text=Bonjour%2C+j%27ai+besoin+d%27un+d%C3%A9pannage+%C3%A0+Nice.
+        - img [ref=e203]
+        - text: WhatsApp
+  - contentinfo [ref=e205]:
+    - generic [ref=e206]:
+      - generic [ref=e207]:
+        - generic [ref=e208]:
+          - img "APEX Dépannage" [ref=e209]
+          - paragraph [ref=e210]: Votre service de remorquage et d'assistance, rapide et fiable, au départ de Nice et partout en Europe.
+        - generic [ref=e211]:
+          - heading "Navigation" [level=4] [ref=e212]
+          - link "Accueil" [ref=e213] [cursor=pointer]:
+            - /url: /
+          - link "Dépannage Nice" [ref=e214] [cursor=pointer]:
+            - /url: /depannage-nice
+          - link "Remorquage Nice" [ref=e215] [cursor=pointer]:
+            - /url: /remorquage-nice
+          - link "Épaves" [ref=e216] [cursor=pointer]:
+            - /url: /enlevement-epaves-nice
+          - link "Tarifs" [ref=e217] [cursor=pointer]:
+            - /url: /tarifs
+        - generic [ref=e218]:
+          - heading "Zones" [level=4] [ref=e219]
+          - link "Nice Aéroport" [ref=e220] [cursor=pointer]:
+            - /url: /zones/depannage-nice-aeroport
+          - link "Promenade des Anglais" [ref=e221] [cursor=pointer]:
+            - /url: /zones/depannage-nice-promenade-anglais
+          - link "Monaco" [ref=e222] [cursor=pointer]:
+            - /url: /zones/depannage-monaco
+          - link "Cannes" [ref=e223] [cursor=pointer]:
+            - /url: /zones/depannage-cannes
+          - link "Antibes" [ref=e224] [cursor=pointer]:
+            - /url: /zones/depannage-antibes
+        - generic [ref=e225]:
+          - heading "Contact" [level=4] [ref=e226]
+          - link "06 24 73 06 72" [ref=e227] [cursor=pointer]:
+            - /url: tel:+33624730672
+          - generic [ref=e228]:
+            - text: info@apexdepannage.fr
+            - text: Nice (06) · Côte d'Azur · Europe
+            - text: Ouvert 24 h / 24 — 7 j / 7
+      - generic [ref=e229]:
+        - generic [ref=e230]: © 2026 APEX Dépannage. Tous droits réservés.
+        - generic [ref=e231]: Assuré · SIRET XXX XXX XXX XXXXX
+  - link "Appeler — 06 24 73 06 72" [ref=e232] [cursor=pointer]:
+    - /url: tel:+33624730672
+    - img [ref=e233]
+    - text: Appeler — 06 24 73 06 72

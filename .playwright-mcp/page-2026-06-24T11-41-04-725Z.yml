@@ -1,0 +1,275 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - img [ref=e5]
+    - generic [ref=e8]:
+      - text: Disponible 24 h / 24 — 7 j / 7.
+      - link "Appelez maintenant" [ref=e9] [cursor=pointer]:
+        - /url: tel:+33624730672
+  - banner [ref=e10]:
+    - generic [ref=e11]:
+      - link "APEX Dépannage — accueil" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - img "APEX Dépannage" [ref=e13]
+      - generic [ref=e14]:
+        - link "Appelez maintenant — 06 24 73 06 72" [ref=e15] [cursor=pointer]:
+          - /url: tel:+33624730672
+          - img [ref=e16]
+          - text: Appelez maintenant — 06 24 73 06 72
+        - button "Ouvrir le menu" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+  - navigation [ref=e21]:
+    - link "Accueil" [ref=e22] [cursor=pointer]:
+      - /url: /
+    - link "Dépannage Nice" [ref=e23] [cursor=pointer]:
+      - /url: /depannage-nice
+    - link "Remorquage Nice" [ref=e24] [cursor=pointer]:
+      - /url: /remorquage-nice
+    - link "Épaves" [ref=e25] [cursor=pointer]:
+      - /url: /enlevement-epaves-nice
+    - link "Tarifs" [ref=e26] [cursor=pointer]:
+      - /url: /tarifs
+    - link "Contact" [ref=e27] [cursor=pointer]:
+      - /url: /contact
+    - link "Appeler le 06 24 73 06 72" [ref=e28] [cursor=pointer]:
+      - /url: tel:+33624730672
+  - generic [ref=e32]:
+    - generic [ref=e33]:
+      - text: Remorquage auto
+      - generic [ref=e35]: 24/7
+    - heading "Remorquage auto à Nice sur plateau" [level=1] [ref=e36]:
+      - text: Remorquage
+      - text: auto à Nice
+      - text: sur plateau
+    - paragraph [ref=e37]: Véhicule accidenté, immobilisé ou irréparable sur place ? Nous assurons le transport sécurisé de votre véhicule vers le garage de votre choix, à Nice, dans le 06, en France ou en Europe.
+    - generic [ref=e38]:
+      - link "Appeler maintenant" [ref=e39] [cursor=pointer]:
+        - /url: tel:+33624730672
+        - img [ref=e40]
+        - text: Appeler maintenant
+      - link "WhatsApp" [ref=e42] [cursor=pointer]:
+        - /url: https://wa.me/33624730672?text=Bonjour%2C+j%27ai+besoin+d%27un+remorquage+%C3%A0+Nice.
+        - img [ref=e43]
+        - text: WhatsApp
+  - generic [ref=e46]:
+    - generic [ref=e47]:
+      - generic [ref=e48]: < 30 min
+      - generic [ref=e49]: Délai d'intervention à Nice
+    - generic [ref=e50]:
+      - generic [ref=e51]: 100%
+      - generic [ref=e52]: Plateau — transport sans contact roues
+    - generic [ref=e53]:
+      - generic [ref=e54]: Europe
+      - generic [ref=e55]: Remorquage toutes distances
+    - generic [ref=e56]:
+      - generic [ref=e57]: 0 €
+      - generic [ref=e58]: Surprise — tarif annoncé avant
+  - generic [ref=e60]:
+    - generic [ref=e61]:
+      - generic [ref=e62]: Comprendre
+      - heading "Dépannage ou remorquage — quelle différence ?" [level=2] [ref=e63]
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - heading "Dépannage sur place" [level=3] [ref=e66]
+        - paragraph [ref=e67]: "La panne peut être résolue sur place : batterie à plat, crevaison, erreur de carburant, clés enfermées. Notre technicien intervient directement sur votre véhicule sans le déplacer."
+        - link "Nos prestations de dépannage →" [ref=e68] [cursor=pointer]:
+          - /url: /depannage-nice
+      - generic [ref=e69]:
+        - heading "Remorquage" [level=3] [ref=e70]
+        - paragraph [ref=e71]: "Le véhicule ne peut pas rouler : accident, panne mécanique grave, véhicule déclaré irréparable sur place, roue arrachée, boîte de vitesses hors d'usage. Nous chargeons votre véhicule sur plateau et le transportons en sécurité."
+        - link "Appeler pour un remorquage" [ref=e72] [cursor=pointer]:
+          - /url: tel:+33624730672
+  - generic [ref=e74]:
+    - generic [ref=e75]:
+      - generic [ref=e76]: Situations
+      - heading "Dans quelles situations faire appel à notre service de remorquage ?" [level=2] [ref=e77]
+    - generic [ref=e78]:
+      - generic [ref=e79]:
+        - generic [ref=e80]: "01"
+        - generic [ref=e81]:
+          - heading "Accident de la route" [level=3] [ref=e82]
+          - paragraph [ref=e83]: "Véhicule accidenté, carrosserie déformée, roue tordue ou train avant endommagé : le remorquage sur plateau est la seule option sûre pour ne pas aggraver les dégâts."
+      - generic [ref=e84]:
+        - generic [ref=e85]: "02"
+        - generic [ref=e86]:
+          - heading "Panne mécanique grave" [level=3] [ref=e87]
+          - paragraph [ref=e88]: "Moteur cassé, courroie de distribution sautée, boîte de vitesses hors service : le véhicule ne peut pas rouler même sur une courte distance. Nous l'emmenons directement chez votre mécanicien."
+      - generic [ref=e89]:
+        - generic [ref=e90]: "03"
+        - generic [ref=e91]:
+          - heading "Véhicule en fourrière" [level=3] [ref=e92]
+          - paragraph [ref=e93]: Vous devez récupérer un véhicule immobilisé ou le faire transférer ? Nous gérons le transport dans les règles.
+      - generic [ref=e94]:
+        - generic [ref=e95]: "04"
+        - generic [ref=e96]:
+          - heading "Achat ou vente de véhicule non roulant" [level=3] [ref=e97]
+          - paragraph [ref=e98]: Vous venez d'acheter un véhicule qui ne démarre pas, ou vous vendez une voiture hors d'usage ? Nous assurons le transport d'un point A à un point B.
+      - generic [ref=e99]:
+        - generic [ref=e100]: "05"
+        - generic [ref=e101]:
+          - heading "Véhicule de collection ou de prestige" [level=3] [ref=e102]
+          - paragraph [ref=e103]: "Votre véhicule de collection ou de luxe ne doit pas rouler sur route longue distance : nous l'embarquons sur plateau avec toutes les précautions nécessaires."
+      - generic [ref=e104]:
+        - generic [ref=e105]: "06"
+        - generic [ref=e106]:
+          - heading "Rapatriement depuis l'étranger" [level=3] [ref=e107]
+          - paragraph [ref=e108]: Tombé en panne en Italie, en Espagne ou ailleurs en Europe ? Nous rapatrions votre véhicule jusqu'à Nice ou votre domicile.
+  - generic [ref=e113]: Transport sécurisé sur plateau — zéro contact roues au sol
+  - generic [ref=e115]:
+    - generic [ref=e116]: Longue distance
+    - heading "Remorquage longue distance — Nice vers toute l'Europe" [level=2] [ref=e117]
+    - paragraph [ref=e118]: "La majorité des dépanneurs niçois s'arrêtent aux Alpes-Maritimes. Apex Dépannage assure le transport de votre véhicule sans limite de distance : Nice → Paris, Nice → Lyon, Nice → Barcelone, Nice → Milan. Un seul interlocuteur, un seul devis, une prise en charge complète."
+    - generic [ref=e119]:
+      - generic [ref=e120]:
+        - img [ref=e121]
+        - text: Véhicule chargé sur plateau — aucune roue au sol
+      - generic [ref=e124]:
+        - img [ref=e125]
+        - text: Arrimage professionnel — sangles et cales adaptées
+      - generic [ref=e128]:
+        - img [ref=e129]
+        - text: Assurance marchandises transportées incluse
+      - generic [ref=e132]:
+        - img [ref=e133]
+        - text: Vous choisissez le garage de destination
+  - generic [ref=e137]:
+    - generic [ref=e138]:
+      - generic [ref=e139]: Zone d'intervention
+      - heading "Remorquage au départ de Nice — toutes destinations" [level=2] [ref=e140]
+      - paragraph [ref=e141]: Nous prenons en charge votre véhicule partout à Nice et dans le 06, et nous le livrons où vous le souhaitez.
+    - generic [ref=e142]:
+      - generic [ref=e143]:
+        - generic [ref=e144]:
+          - img [ref=e145]
+          - text: Prise en charge
+        - generic [ref=e148]:
+          - generic [ref=e149]: Nice
+          - generic [ref=e150]: Cannes
+          - generic [ref=e151]: Antibes
+          - generic [ref=e152]: Monaco
+          - generic [ref=e153]: Menton
+          - generic [ref=e154]: Grasse
+          - generic [ref=e155]: Tout le 06
+      - img [ref=e157]
+      - generic [ref=e159]:
+        - generic [ref=e160]:
+          - img [ref=e161]
+          - text: Livraison
+        - generic [ref=e164]:
+          - generic [ref=e165]: Votre garagiste à Nice
+          - generic [ref=e166]: N'importe où en France
+          - generic [ref=e167]: Partout en Europe
+  - generic [ref=e169]:
+    - generic [ref=e170]: Tarifs
+    - heading "Tarifs de remorquage à Nice — annoncés avant intervention" [level=2] [ref=e171]
+    - table [ref=e172]:
+      - rowgroup [ref=e173]:
+        - row "Prestation Tarif indicatif" [ref=e174]:
+          - columnheader "Prestation" [ref=e175]
+          - columnheader "Tarif indicatif" [ref=e176]
+      - rowgroup [ref=e177]:
+        - row "Remorquage intra-muros Nice À partir de 90 €" [ref=e178]:
+          - cell "Remorquage intra-muros Nice" [ref=e179]
+          - cell "À partir de 90 €" [ref=e180]
+        - row "Remorquage Nice → reste du 06 À partir de 120 €" [ref=e181]:
+          - cell "Remorquage Nice → reste du 06" [ref=e182]
+          - cell "À partir de 120 €" [ref=e183]
+        - row "Remorquage Nice → France Sur devis" [ref=e184]:
+          - cell "Remorquage Nice → France" [ref=e185]
+          - cell "Sur devis" [ref=e186]
+        - row "Remorquage Nice → Europe Sur devis" [ref=e187]:
+          - cell "Remorquage Nice → Europe" [ref=e188]
+          - cell "Sur devis" [ref=e189]
+        - row "Remorquage moto / scooter À partir de 90 €" [ref=e190]:
+          - cell "Remorquage moto / scooter" [ref=e191]
+          - cell "À partir de 90 €" [ref=e192]
+        - row "Remorquage véhicule de collection Sur devis" [ref=e193]:
+          - cell "Remorquage véhicule de collection" [ref=e194]
+          - cell "Sur devis" [ref=e195]
+    - paragraph [ref=e196]: Ces tarifs sont indicatifs. Un devis précis vous est systématiquement communiqué par téléphone avant toute prise en charge. Aucun frais caché.
+    - link "Voir tous nos tarifs →" [ref=e197] [cursor=pointer]:
+      - /url: /tarifs
+  - generic [ref=e199]:
+    - generic [ref=e200]:
+      - generic [ref=e201]: FAQ
+      - heading "Questions fréquentes — Remorquage à Nice" [level=2] [ref=e202]
+    - generic [ref=e203]:
+      - group [ref=e204]:
+        - generic "Quel est le prix d'un remorquage à Nice ? +" [ref=e205] [cursor=pointer]
+      - group [ref=e206]:
+        - generic "Remorquez-vous les motos et scooters à Nice ? +" [ref=e207] [cursor=pointer]
+      - group [ref=e208]:
+        - generic "Puis-je choisir le garage de destination ? +" [ref=e209] [cursor=pointer]
+      - group [ref=e210]:
+        - generic "Intervenez-vous sur l'autoroute A8 ? +" [ref=e211] [cursor=pointer]
+      - group [ref=e212]:
+        - generic "Faites-vous du remorquage de véhicules de luxe ou de collection ? +" [ref=e213] [cursor=pointer]
+      - group [ref=e214]:
+        - generic "Êtes-vous disponibles pour un remorquage la nuit ? +" [ref=e215] [cursor=pointer]
+  - generic [ref=e217]:
+    - paragraph [ref=e218]: Découvrez aussi nos autres services
+    - generic [ref=e219]:
+      - link "Dépannage Nice" [ref=e220] [cursor=pointer]:
+        - /url: /depannage-nice
+      - link "Épaves Nice" [ref=e221] [cursor=pointer]:
+        - /url: /enlevement-epaves-nice
+      - link "Tarifs" [ref=e222] [cursor=pointer]:
+        - /url: /tarifs
+      - link "Contact" [ref=e223] [cursor=pointer]:
+        - /url: /contact
+  - generic [ref=e225]:
+    - heading "Votre véhicule doit être remorqué ?" [level=2] [ref=e226]
+    - paragraph [ref=e227]: Appelez maintenant — devis en 2 minutes, intervention en 30 minutes.
+    - generic [ref=e228]:
+      - link "Appeler le 06 24 73 06 72" [ref=e229] [cursor=pointer]:
+        - /url: tel:+33624730672
+        - img [ref=e230]
+        - text: Appeler le 06 24 73 06 72
+      - link "WhatsApp" [ref=e232] [cursor=pointer]:
+        - /url: https://wa.me/33624730672?text=Bonjour%2C+j%27ai+besoin+d%27un+remorquage+%C3%A0+Nice.
+        - img [ref=e233]
+        - text: WhatsApp
+  - contentinfo [ref=e235]:
+    - generic [ref=e236]:
+      - generic [ref=e237]:
+        - generic [ref=e238]:
+          - img "APEX Dépannage" [ref=e239]
+          - paragraph [ref=e240]: Votre service de remorquage et d'assistance, rapide et fiable, au départ de Nice et partout en Europe.
+        - generic [ref=e241]:
+          - heading "Navigation" [level=4] [ref=e242]
+          - link "Accueil" [ref=e243] [cursor=pointer]:
+            - /url: /
+          - link "Dépannage Nice" [ref=e244] [cursor=pointer]:
+            - /url: /depannage-nice
+          - link "Remorquage Nice" [ref=e245] [cursor=pointer]:
+            - /url: /remorquage-nice
+          - link "Épaves" [ref=e246] [cursor=pointer]:
+            - /url: /enlevement-epaves-nice
+          - link "Tarifs" [ref=e247] [cursor=pointer]:
+            - /url: /tarifs
+        - generic [ref=e248]:
+          - heading "Zones" [level=4] [ref=e249]
+          - link "Nice Aéroport" [ref=e250] [cursor=pointer]:
+            - /url: /zones/depannage-nice-aeroport
+          - link "Promenade des Anglais" [ref=e251] [cursor=pointer]:
+            - /url: /zones/depannage-nice-promenade-anglais
+          - link "Monaco" [ref=e252] [cursor=pointer]:
+            - /url: /zones/depannage-monaco
+          - link "Cannes" [ref=e253] [cursor=pointer]:
+            - /url: /zones/depannage-cannes
+          - link "Antibes" [ref=e254] [cursor=pointer]:
+            - /url: /zones/depannage-antibes
+        - generic [ref=e255]:
+          - heading "Contact" [level=4] [ref=e256]
+          - link "06 24 73 06 72" [ref=e257] [cursor=pointer]:
+            - /url: tel:+33624730672
+          - generic [ref=e258]:
+            - text: info@apexdepannage.fr
+            - text: Nice (06) · Côte d'Azur · Europe
+            - text: Ouvert 24 h / 24 — 7 j / 7
+      - generic [ref=e259]:
+        - generic [ref=e260]: © 2026 APEX Dépannage. Tous droits réservés.
+        - generic [ref=e261]: Assuré · SIRET XXX XXX XXX XXXXX
+  - link "Appeler — 06 24 73 06 72" [ref=e262] [cursor=pointer]:
+    - /url: tel:+33624730672
+    - img [ref=e263]
+    - text: Appeler — 06 24 73 06 72

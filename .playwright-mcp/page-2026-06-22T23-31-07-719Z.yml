@@ -1,0 +1,324 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e5]
+      - generic [ref=e8]:
+        - text: Disponible 24 h / 24 — 7 j / 7. Une urgence ?
+        - link "Appelez maintenant" [ref=e9] [cursor=pointer]:
+          - /url: tel:+33624730672
+    - generic [ref=e10]:
+      - img [ref=e11]
+      - generic [ref=e14]: Nice & Côte d'Azur · Toute l'Europe
+  - banner [ref=e15]:
+    - generic [ref=e16]:
+      - link "APEX Dépannage — accueil" [ref=e17] [cursor=pointer]:
+        - /url: /
+        - img "APEX Dépannage — Remorquage 24/7" [ref=e18]
+      - navigation [ref=e19]:
+        - link "Accueil" [ref=e20] [cursor=pointer]:
+          - /url: /
+        - link "Dépannage" [ref=e21] [cursor=pointer]:
+          - /url: /depannage-nice
+        - link "Remorquage" [ref=e22] [cursor=pointer]:
+          - /url: /remorquage-nice
+        - link "Épaves" [ref=e23] [cursor=pointer]:
+          - /url: /enlevement-epaves-nice
+        - link "Tarifs" [ref=e24] [cursor=pointer]:
+          - /url: /tarifs
+        - link "Contact" [ref=e25] [cursor=pointer]:
+          - /url: /contact
+      - link "Appelez maintenant — 06 24 73 06 72" [ref=e27] [cursor=pointer]:
+        - /url: tel:+33624730672
+        - img [ref=e28]
+        - text: Appelez maintenant — 06 24 73 06 72
+  - generic [ref=e30]:
+    - img [ref=e34]
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - text: Dépannage & remorquage
+        - generic [ref=e45]: 24/7
+      - heading "Dépanneuse Nice" [level=1] [ref=e46]:
+        - text: Dépanneuse
+        - text: Nice
+      - paragraph [ref=e47]: Intervention en moins de 30 minutes, jour et nuit. Devis annoncé avant intervention, sans exception.
+  - generic [ref=e48]:
+    - generic [ref=e49]:
+      - img [ref=e50]
+      - generic [ref=e52]: Demande d'intervention urgente
+    - generic [ref=e53]:
+      - textbox "Prénom" [ref=e54]
+      - textbox "Nom" [ref=e55]
+      - textbox "Téléphone" [ref=e56]
+      - textbox "Email" [ref=e57]
+      - button "Géolocaliser" [ref=e58] [cursor=pointer]:
+        - img [ref=e59]
+        - text: Géolocaliser
+      - button "Envoyer →" [ref=e62] [cursor=pointer]
+  - generic [ref=e64]:
+    - generic [ref=e65]:
+      - generic [ref=e66]: Avis clients
+      - heading "Avis clients dépannage Nice" [level=2] [ref=e67]
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]: ★★★★★
+        - paragraph [ref=e71]: « Tombé en panne sur l'A8 un dimanche soir. Dépanneuse sur place en moins de 15 minutes, voiture chargée et rapatriée chez moi à Nice en toute sécurité. »
+        - generic [ref=e72]:
+          - generic [ref=e73]: K
+          - generic [ref=e74]:
+            - generic [ref=e75]: Karim B.
+            - generic [ref=e76]: Nice (06) · Google
+      - generic [ref=e77]:
+        - generic [ref=e78]: ★★★★★
+        - paragraph [ref=e79]: « J'avais besoin de transférer mon utilitaire jusqu'en Italie. Prix clair annoncé d'avance, véhicule livré à l'heure, zéro mauvaise surprise. »
+        - generic [ref=e80]:
+          - generic [ref=e81]: M
+          - generic [ref=e82]:
+            - generic [ref=e83]: Marc L.
+            - generic [ref=e84]: Monaco · Google
+      - generic [ref=e85]:
+        - generic [ref=e86]: ★★★★★
+        - paragraph [ref=e87]: « Rapatriement de ma voiture de collection depuis l'Espagne. Plateau adapté, chauffeur soigneux, et gardiennage le temps des réparations. »
+        - generic [ref=e88]:
+          - generic [ref=e89]: S
+          - generic [ref=e90]:
+            - generic [ref=e91]: Sophie H.
+            - generic [ref=e92]: Cannes (06) · Google
+    - generic [ref=e93]:
+      - generic [ref=e94]:
+        - img [ref=e95]
+        - generic [ref=e100]: 4,9 / 5
+        - generic [ref=e101]: ★★★★★
+        - generic [ref=e102]: basé sur 200+ avis Google vérifiés
+      - link "Laisser un avis sur Google" [ref=e103] [cursor=pointer]:
+        - /url: "#contact"
+    - generic [ref=e104]:
+      - generic [ref=e105]:
+        - img [ref=e107]
+        - generic [ref=e110]: Licencié & assuré
+        - generic [ref=e111]: RC Pro + marchandises transportées
+      - generic [ref=e112]:
+        - img [ref=e114]
+        - generic [ref=e117]: Réponse < 10 min
+        - generic [ref=e118]: Appels traités en direct 24/7
+      - generic [ref=e119]:
+        - img [ref=e121]
+        - generic [ref=e125]: Devis avant intervention
+        - generic [ref=e126]: Tarif annoncé, pas de surprise
+      - generic [ref=e127]:
+        - img [ref=e129]
+        - generic [ref=e134]: 5 000+ interventions
+        - generic [ref=e135]: 10+ ans d'expérience
+    - generic [ref=e136]:
+      - img "Entreprise certifiée — Dépannage professionnel" [ref=e137]
+      - generic [ref=e138]:
+        - generic [ref=e139]: Entreprise certifiée
+        - generic [ref=e140]: Dépannage professionnel agréé. Savoir-faire, fiabilité et réactivité garantis sur chaque intervention.
+    - generic [ref=e141]:
+      - generic [ref=e142]: Agréé par les assureurs
+      - generic [ref=e143]:
+        - img [ref=e145]:
+          - generic [ref=e146]: AXA
+        - img [ref=e148]:
+          - generic [ref=e149]: MAAF
+        - img [ref=e151]:
+          - generic [ref=e152]: Allianz
+        - img [ref=e154]:
+          - generic [ref=e155]: MACIF
+        - img [ref=e157]:
+          - generic [ref=e158]: Groupama
+  - generic [ref=e160]:
+    - generic [ref=e161]:
+      - generic [ref=e162]: Nos services
+      - heading "Une solution pour chaque urgence routière" [level=2] [ref=e163]
+      - paragraph [ref=e164]: "Du remorquage au gardiennage, en passant par le rapatriement et le transfert : une prise en charge complète de votre véhicule, partout en Europe au départ du 06."
+    - generic [ref=e165]:
+      - generic [ref=e166]:
+        - img [ref=e168]
+        - heading "Remorquage" [level=3] [ref=e173]
+        - paragraph [ref=e174]: Véhicules légers et utilitaires remorqués sur plateau, partout en Europe, sans la moindre éraflure.
+        - link "En savoir plus →" [ref=e175] [cursor=pointer]:
+          - /url: /remorquage-nice
+          - text: En savoir plus
+          - generic [ref=e176]: →
+      - generic [ref=e177]:
+        - img [ref=e179]
+        - heading "Assistance" [level=3] [ref=e181]
+        - paragraph [ref=e182]: "Panne, batterie, pneu, carburant, déverrouillage : dépannage rapide sur place, de jour comme de nuit."
+        - link "En savoir plus →" [ref=e183] [cursor=pointer]:
+          - /url: /depannage-nice
+          - text: En savoir plus
+          - generic [ref=e184]: →
+      - generic [ref=e185]:
+        - img [ref=e187]
+        - heading "Rapatriement" [level=3] [ref=e190]
+        - paragraph [ref=e191]: Véhicule immobilisé à l'étranger ? Nous le rapatrions jusqu'à votre domicile ou votre garagiste.
+        - link "Demander →" [ref=e192] [cursor=pointer]:
+          - /url: /contact
+          - text: Demander
+          - generic [ref=e193]: →
+      - generic [ref=e194]:
+        - img [ref=e196]
+        - heading "Transfert" [level=3] [ref=e198]
+        - paragraph [ref=e199]: Convoyage et transfert de véhicules d'une ville à l'autre, en France comme partout en Europe.
+        - link "Demander →" [ref=e200] [cursor=pointer]:
+          - /url: /contact
+          - text: Demander
+          - generic [ref=e201]: →
+      - generic [ref=e202]:
+        - img [ref=e204]
+        - heading "Stockage" [level=3] [ref=e207]
+        - paragraph [ref=e208]: Entreposage sécurisé de votre véhicule en attendant réparation, vente ou expédition.
+        - link "Demander →" [ref=e209] [cursor=pointer]:
+          - /url: /contact
+          - text: Demander
+          - generic [ref=e210]: →
+      - generic [ref=e211]:
+        - img [ref=e213]
+        - heading "Gardiennage" [level=3] [ref=e216]
+        - paragraph [ref=e217]: "Gardiennage surveillé sur parc fermé : votre véhicule reste protégé en toute tranquillité."
+        - link "Demander →" [ref=e218] [cursor=pointer]:
+          - /url: /contact
+          - text: Demander
+          - generic [ref=e219]: →
+  - generic [ref=e221]:
+    - generic [ref=e222]:
+      - generic [ref=e223]: Zone d'intervention
+      - heading "Notre zone d'intervention" [level=2] [ref=e224]
+      - paragraph [ref=e225]: Basés sur la Côte d'Azur, nous intervenons partout en Europe au départ du 06.
+    - generic [ref=e226]:
+      - link "Nice" [ref=e227] [cursor=pointer]:
+        - /url: /depannage-nice
+      - link "Cannes" [ref=e228] [cursor=pointer]:
+        - /url: /zones/depannage-cannes
+      - link "Antibes" [ref=e229] [cursor=pointer]:
+        - /url: /zones/depannage-antibes
+      - link "Monaco" [ref=e230] [cursor=pointer]:
+        - /url: /zones/depannage-monaco
+      - link "Menton" [ref=e231] [cursor=pointer]:
+        - /url: "#contact"
+      - link "Grasse" [ref=e232] [cursor=pointer]:
+        - /url: "#contact"
+      - link "Alpes-Maritimes" [ref=e233] [cursor=pointer]:
+        - /url: "#contact"
+      - link "France entière" [ref=e234] [cursor=pointer]:
+        - /url: "#contact"
+      - link "Europe" [ref=e235] [cursor=pointer]:
+        - /url: "#contact"
+    - paragraph [ref=e236]:
+      - text: Une destination précise ?
+      - link "Appelez-nous" [ref=e237] [cursor=pointer]:
+        - /url: tel:+33624730672
+      - text: pour un devis immédiat.
+  - generic [ref=e239]:
+    - generic [ref=e240]:
+      - generic [ref=e241]: FAQ
+      - heading "Questions fréquentes" [level=2] [ref=e242]
+    - generic [ref=e243]:
+      - group [ref=e244]:
+        - generic "Quel est votre délai d'intervention à Nice ? +" [ref=e245] [cursor=pointer]
+      - group [ref=e246]:
+        - generic "Intervenez-vous la nuit et les week-ends ? +" [ref=e247] [cursor=pointer]
+      - group [ref=e248]:
+        - generic "Quel est le prix d'un dépannage à Nice ? +" [ref=e249] [cursor=pointer]
+      - group [ref=e250]:
+        - generic "Remorquez-vous vers n'importe quel garage ? +" [ref=e251] [cursor=pointer]
+      - group [ref=e252]:
+        - generic "Intervenez-vous hors de Nice ? +" [ref=e253] [cursor=pointer]
+      - group [ref=e254]:
+        - generic "Êtes-vous agréés par les assurances ? +" [ref=e255] [cursor=pointer]
+  - generic [ref=e258]:
+    - generic [ref=e259]:
+      - generic [ref=e260]: Contactez-nous
+      - heading "Assistance remorquage & dépannage 24/7" [level=2] [ref=e261]
+      - paragraph [ref=e262]: Disponibles 24 h/24, 365 jours par an, pour les urgences comme les transports planifiés — partout en Europe, au départ du 06.
+      - link "Ligne d'urgence 06 24 73 06 72" [ref=e263] [cursor=pointer]:
+        - /url: tel:+33624730672
+        - img [ref=e265]
+        - generic [ref=e267]:
+          - text: Ligne d'urgence
+          - text: 06 24 73 06 72
+      - generic [ref=e268]:
+        - img [ref=e270]
+        - generic [ref=e273]:
+          - text: Courriel
+          - text: info@apexdepannage.fr
+      - generic [ref=e274]:
+        - img [ref=e276]
+        - generic [ref=e279]:
+          - text: Territoire
+          - text: Nice & Côte d'Azur · Toute l'Europe
+    - generic [ref=e280]:
+      - heading "Prêt à partir ?" [level=3] [ref=e281]
+      - paragraph [ref=e282]: Remplissez le formulaire — un répartiteur vous rappelle en quelques minutes.
+      - generic [ref=e283]:
+        - generic [ref=e284]:
+          - generic [ref=e285]:
+            - generic [ref=e286]: Nom complet *
+            - textbox "Nom" [ref=e287]
+          - generic [ref=e288]:
+            - generic [ref=e289]: Téléphone *
+            - textbox "Téléphone" [ref=e290]
+          - generic [ref=e291]:
+            - generic [ref=e292]: Emplacement actuel *
+            - textbox "Adresse / autoroute" [ref=e293]
+          - generic [ref=e294]:
+            - generic [ref=e295]: Type de service *
+            - combobox [ref=e296]:
+              - option "Choisir…" [selected]
+              - option "Remorquage"
+              - option "Assistance / dépannage"
+              - option "Rapatriement"
+              - option "Transfert / convoyage"
+              - option "Stockage"
+              - option "Gardiennage"
+          - generic [ref=e297]:
+            - generic [ref=e298]: Véhicule (marque, modèle, année)
+            - textbox "Ex. Honda Civic 2020" [ref=e299]
+          - button "Demander une intervention" [ref=e301] [cursor=pointer]
+        - generic [ref=e302]:
+          - img [ref=e303]
+          - text: Réponse en moins de 10 minutes — ou appelez directement le
+          - link "06 24 73 06 72" [ref=e305] [cursor=pointer]:
+            - /url: tel:+33624730672
+          - text: .
+  - contentinfo [ref=e306]:
+    - generic [ref=e307]:
+      - generic [ref=e308]:
+        - generic [ref=e309]:
+          - img "APEX Dépannage" [ref=e310]
+          - paragraph [ref=e311]: Votre service de remorquage et d'assistance, rapide et fiable, au départ de Nice et partout en Europe. Disponible jour et nuit, toute l'année.
+        - generic [ref=e312]:
+          - heading "Navigation" [level=4] [ref=e313]
+          - link "Accueil" [ref=e314] [cursor=pointer]:
+            - /url: /
+          - link "Dépannage Nice" [ref=e315] [cursor=pointer]:
+            - /url: /depannage-nice
+          - link "Remorquage Nice" [ref=e316] [cursor=pointer]:
+            - /url: /remorquage-nice
+          - link "Épaves" [ref=e317] [cursor=pointer]:
+            - /url: /enlevement-epaves-nice
+          - link "Tarifs" [ref=e318] [cursor=pointer]:
+            - /url: /tarifs
+        - generic [ref=e319]:
+          - heading "Zones" [level=4] [ref=e320]
+          - link "Nice Aéroport" [ref=e321] [cursor=pointer]:
+            - /url: /zones/depannage-nice-aeroport
+          - link "Promenade des Anglais" [ref=e322] [cursor=pointer]:
+            - /url: /zones/depannage-nice-promenade-anglais
+          - link "Monaco" [ref=e323] [cursor=pointer]:
+            - /url: /zones/depannage-monaco
+          - link "Cannes" [ref=e324] [cursor=pointer]:
+            - /url: /zones/depannage-cannes
+          - link "Antibes" [ref=e325] [cursor=pointer]:
+            - /url: /zones/depannage-antibes
+        - generic [ref=e326]:
+          - heading "Contact" [level=4] [ref=e327]
+          - link "06 24 73 06 72" [ref=e328] [cursor=pointer]:
+            - /url: tel:+33624730672
+          - generic [ref=e329]:
+            - text: info@apexdepannage.fr
+            - text: Nice (06) · Côte d'Azur · Europe
+            - text: Ouvert 24 h / 24 — 7 j / 7
+      - generic [ref=e330]:
+        - generic [ref=e331]: © 2026 APEX Dépannage. Tous droits réservés.
+        - generic [ref=e332]: Assuré · SIRET XXX XXX XXX XXXXX

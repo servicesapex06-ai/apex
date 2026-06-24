@@ -1,0 +1,119 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e5]
+      - generic [ref=e8]:
+        - text: Disponible 24 h / 24 — 7 j / 7.
+        - link "Appelez maintenant" [ref=e9] [cursor=pointer]:
+          - /url: tel:+33624730672
+    - generic [ref=e10]:
+      - img [ref=e11]
+      - generic [ref=e14]: Nice & Côte d'Azur · Toute l'Europe
+  - banner [ref=e15]:
+    - generic [ref=e16]:
+      - link "APEX Dépannage — accueil" [ref=e17] [cursor=pointer]:
+        - /url: /
+        - img "APEX Dépannage" [ref=e18]
+      - navigation [ref=e19]:
+        - link "Accueil" [ref=e20] [cursor=pointer]:
+          - /url: /
+        - link "Dépannage" [ref=e21] [cursor=pointer]:
+          - /url: /depannage-nice
+        - link "Remorquage" [ref=e22] [cursor=pointer]:
+          - /url: /remorquage-nice
+        - link "Épaves" [ref=e23] [cursor=pointer]:
+          - /url: /enlevement-epaves-nice
+        - link "Tarifs" [ref=e24] [cursor=pointer]:
+          - /url: /tarifs
+        - link "Contact" [ref=e25] [cursor=pointer]:
+          - /url: /contact
+      - link "Ligne d'urgence 06 24 73 06 72" [ref=e27] [cursor=pointer]:
+        - /url: tel:+33624730672
+        - img [ref=e29]
+        - generic [ref=e31]:
+          - text: Ligne d'urgence
+          - text: 06 24 73 06 72
+  - generic [ref=e33]:
+    - generic [ref=e34]:
+      - link "Accueil" [ref=e35] [cursor=pointer]:
+        - /url: /
+      - text: /
+      - link "Dépannage Nice" [ref=e36] [cursor=pointer]:
+        - /url: /depannage-nice
+      - text: / Monaco
+    - generic [ref=e37]: Zone d'intervention
+    - heading "Dépannage auto Monaco — Intervention rapide 24h/24" [level=1] [ref=e38]
+  - generic [ref=e40]:
+    - generic [ref=e41]:
+      - paragraph [ref=e42]: "Apex Dépannage intervient dans l'ensemble de la Principauté de Monaco : le Rocher, Monte-Carlo, le Port Hercule, Fontvieille et La Condamine. Nous couvrons aussi le tunnel de Monaco, les accès depuis l'A8 via La Turbie et les routes en corniche reliant Nice à Monaco. Panne en sortie de tunnel, véhicule bloqué dans un parking souterrain ou accident sur le boulevard du Larvotto : nous intervenons jour et nuit."
+      - paragraph [ref=e43]: Devis annoncé avant intervention, sans exception.
+    - heading "Services disponibles" [level=2] [ref=e44]
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - heading "Remorquage" [level=3] [ref=e47]
+        - paragraph [ref=e48]: Transport de votre véhicule depuis Monaco vers un garage à Nice ou dans les Alpes-Maritimes. Prise en charge dans les parkings souterrains.
+      - generic [ref=e49]:
+        - heading "Dépannage sur place" [level=3] [ref=e50]
+        - paragraph [ref=e51]: Diagnostic et réparation rapide sur le territoire monégasque. Intervention dans les rues étroites du Rocher et les voies de Monte-Carlo.
+      - generic [ref=e52]:
+        - heading "Ouverture de portière" [level=3] [ref=e53]
+        - paragraph [ref=e54]: "Clés enfermées dans le véhicule à Monaco : ouverture sans dommage, y compris dans les parkings souterrains du Port Hercule et de Monte-Carlo."
+      - generic [ref=e55]:
+        - heading "Batterie" [level=3] [ref=e56]
+        - paragraph [ref=e57]: Démarrage ou remplacement de batterie sur place à Monaco. Intervention rapide dans les zones de stationnement couvertes et en surface.
+    - heading "Délai d'intervention" [level=2] [ref=e58]
+    - paragraph [ref=e59]:
+      - text: Comptez
+      - strong [ref=e60]: 25 à 35 minutes
+      - text: depuis notre base à Nice pour une intervention à Monaco. Le trajet emprunte la Basse Corniche ou l'A8 via La Turbie selon les conditions de circulation.
+    - paragraph [ref=e61]:
+      - link "← Retour à Dépannage Nice" [ref=e62] [cursor=pointer]:
+        - /url: /depannage-nice
+  - generic [ref=e64]:
+    - heading "Besoin d'un dépannage à Monaco ?" [level=2] [ref=e65]
+    - paragraph [ref=e66]: Devis annoncé avant intervention. Appelez maintenant.
+    - link "Appeler le 06 24 73 06 72" [ref=e67] [cursor=pointer]:
+      - /url: tel:+33624730672
+      - img [ref=e68]
+      - text: Appeler le 06 24 73 06 72
+  - contentinfo [ref=e70]:
+    - generic [ref=e71]:
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - img "APEX Dépannage" [ref=e74]
+          - paragraph [ref=e75]: Votre service de remorquage et d'assistance, rapide et fiable, au départ de Nice et partout en Europe.
+        - generic [ref=e76]:
+          - heading "Navigation" [level=4] [ref=e77]
+          - link "Accueil" [ref=e78] [cursor=pointer]:
+            - /url: /
+          - link "Dépannage Nice" [ref=e79] [cursor=pointer]:
+            - /url: /depannage-nice
+          - link "Remorquage Nice" [ref=e80] [cursor=pointer]:
+            - /url: /remorquage-nice
+          - link "Épaves" [ref=e81] [cursor=pointer]:
+            - /url: /enlevement-epaves-nice
+          - link "Tarifs" [ref=e82] [cursor=pointer]:
+            - /url: /tarifs
+        - generic [ref=e83]:
+          - heading "Zones" [level=4] [ref=e84]
+          - link "Nice Aéroport" [ref=e85] [cursor=pointer]:
+            - /url: /zones/depannage-nice-aeroport
+          - link "Promenade des Anglais" [ref=e86] [cursor=pointer]:
+            - /url: /zones/depannage-nice-promenade-anglais
+          - link "Monaco" [ref=e87] [cursor=pointer]:
+            - /url: /zones/depannage-monaco
+          - link "Cannes" [ref=e88] [cursor=pointer]:
+            - /url: /zones/depannage-cannes
+          - link "Antibes" [ref=e89] [cursor=pointer]:
+            - /url: /zones/depannage-antibes
+        - generic [ref=e90]:
+          - heading "Contact" [level=4] [ref=e91]
+          - link "06 24 73 06 72" [ref=e92] [cursor=pointer]:
+            - /url: tel:+33624730672
+          - generic [ref=e93]:
+            - text: info@apexdepannage.fr
+            - text: Nice (06) · Côte d'Azur · Europe
+            - text: Ouvert 24 h / 24 — 7 j / 7
+      - generic [ref=e94]:
+        - generic [ref=e95]: © 2026 APEX Dépannage. Tous droits réservés.
+        - generic [ref=e96]: Assuré · SIRET XXX XXX XXX XXXXX

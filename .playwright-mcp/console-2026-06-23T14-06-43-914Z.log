@@ -1,0 +1,4 @@
+[     407ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8080/depannage-nice:0
+[    9297ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8080/depannage-nice:0
+[ 1607111ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8080/depannage-nice:0
+[ 4613557ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8080/img/about.png:0
