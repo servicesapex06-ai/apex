@@ -425,9 +425,9 @@ nav.mobile{display:none}
   .util .hide-mob{display:none}
   .feat-grid,.serv-grid,.fgrid,.foot-grid,.badge-row,.zones-link-grid{grid-template-columns:1fr}
   .panne-tabs{display:none}
-  .panne-content{display:block!important;border:none;border-bottom:1px solid var(--line);padding:0}
+  .panne-content{display:block!important;border:none;padding:0;margin-bottom:36px}
   .panne-content>div:first-child{padding:20px 0}
-  .panne-content .panne-img{height:180px;width:100%}
+  .panne-content .panne-img{height:200px;width:100%}
   .panne-content h3{font-size:18px}
   .panne-content p{font-size:14px}
   .panne-content .delai{font-size:13px}
@@ -453,7 +453,8 @@ nav.mobile{display:none}
   .wa-form input{width:100%}
   .wa-form .geo-btn{width:100%;justify-content:center}
   .wa-form .wa-submit{width:100%;justify-content:center}
-  .google-cta-left{flex-direction:column;gap:8px}
+  .google-cta-bar{align-items:center;text-align:center}
+  .google-cta-left{flex-direction:column;gap:8px;align-items:center;width:100%}
   .google-cta-score{font-size:24px}
   .page-hero h1{font-size:clamp(28px,7vw,54px)}
   .hero .lead .lead-long{display:none}
