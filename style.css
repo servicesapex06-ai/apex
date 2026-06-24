@@ -452,7 +452,7 @@ nav.mobile{display:none}
   .google-cta-left{flex-direction:column;gap:8px}
   .google-cta-score{font-size:24px}
   .page-hero h1{font-size:clamp(28px,7vw,54px)}
-  .hero .lead{font-size:14px;margin:8px 0 0}
+  .hero .lead .lead-long{display:none}
   .page-statbar .wrap{grid-template-columns:1fr 1fr}
   .page-statbar .s{padding:18px 12px}
   .page-statbar .n{font-size:26px}
