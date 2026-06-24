@@ -456,6 +456,7 @@ nav.mobile{display:none}
   .process-grid{gap:16px}
   .route-arrow svg{width:32px;height:32px}
   .callbar{display:none}
+  .head-cta-btn .hide-mob{display:none}
   .head-cta-btn{font-size:13px;padding:10px 14px;gap:6px}
   .head-cta-btn svg{width:16px;height:16px}
   .rev-grid{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-bottom:8px;margin:0 -24px;padding-left:24px;padding-right:24px}
