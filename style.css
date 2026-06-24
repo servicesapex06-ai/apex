@@ -453,8 +453,7 @@ nav.mobile{display:none}
   .google-cta-score{font-size:24px}
   .page-hero h1{font-size:clamp(28px,7vw,54px)}
   .hero .lead .lead-long{display:none}
-  .hero-actions{display:none}
-  .hero-media::after{display:none!important}
+  .page-hero-btns{display:none}
   .page-statbar .wrap{grid-template-columns:1fr 1fr}
   .page-statbar .s{padding:18px 12px}
   .page-statbar .n{font-size:26px}
