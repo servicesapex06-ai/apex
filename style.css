@@ -457,6 +457,6 @@ nav.mobile{display:none}
   .callbar{display:none}
   .head-cta-btn{font-size:13px;padding:10px 14px;gap:6px}
   .head-cta-btn svg{width:16px;height:16px}
-  .rev-grid{grid-template-columns:1fr;overflow-x:auto;display:flex;gap:16px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-bottom:8px}
-  .rcard{min-width:85vw;scroll-snap-align:start;flex:none}
+  .rev-grid{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-bottom:8px;margin:0 -24px;padding-left:24px;padding-right:24px}
+  .rcard{min-width:calc(100vw - 72px);scroll-snap-align:start;flex:none}
 }
