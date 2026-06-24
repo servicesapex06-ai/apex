@@ -178,7 +178,7 @@ section{scroll-margin-top:120px}
 
 /* ===== PAGE STAT BAR ===== */
 .page-statbar{background:var(--ink);border-top:1px solid rgba(255,255,255,.07)}
-.page-statbar .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.page-statbar .wrap{display:grid;grid-template-columns:repeat(4,1fr);padding:0}
 .page-statbar .s{padding:30px 18px;text-align:center;color:#fff;border-right:1px solid rgba(255,255,255,.07)}
 .page-statbar .s:last-child{border-right:none}
 .page-statbar .n{font-family:'Anton',sans-serif;font-size:36px;color:var(--orange);line-height:1}
