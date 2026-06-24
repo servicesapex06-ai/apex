@@ -423,11 +423,14 @@ nav.mobile{display:none}
   .util .ic{font-size:12px}
   .util .hide-mob{display:none}
   .feat-grid,.serv-grid,.fgrid,.foot-grid,.badge-row,.zones-link-grid{grid-template-columns:1fr}
-  .panne-content{padding:24px 20px}
-  .panne-content.on{grid-template-columns:1fr}
-  .panne-content .panne-img{height:200px}
-  .panne-tabs{gap:6px}
-  .panne-tab{font-size:13px;padding:8px 12px}
+  .panne-tabs{display:none}
+  .panne-content{display:block!important;border:none;border-bottom:1px solid var(--line);padding:0}
+  .panne-content>div:first-child{padding:20px 0}
+  .panne-content .panne-img{height:180px;width:100%}
+  .panne-content h3{font-size:18px}
+  .panne-content p{font-size:14px}
+  .panne-content .delai{font-size:13px}
+  .panne-content .btn{font-size:14px;padding:12px 18px}
   .sec{padding:72px 0}
   .page-sec{padding:48px 0}
   .trust-logos{gap:24px}
