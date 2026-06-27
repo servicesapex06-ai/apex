@@ -33,7 +33,7 @@ export default async function handler(req, res) {
       },
       body: JSON.stringify({
         from: 'Apex Dépannage <onboarding@resend.dev>',
-        to: ['services.apex06@gmail.com'],
+        to: ['contact@apexdepannage.fr'],
         reply_to: email || undefined,
         subject: sujet,
         html,
