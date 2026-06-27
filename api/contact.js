@@ -1,4 +1,4 @@
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
   }
@@ -23,6 +23,11 @@ export default async function handler(req, res) {
       ${lignes}
     </table>
   `;
+
+  if (!process.env.RESEND_API_KEY) {
+    console.error('RESEND_API_KEY manquante');
+    return res.status(500).json({ error: 'Configuration manquante' });
+  }
 
   try {
     const r = await fetch('https://api.resend.com/emails', {
