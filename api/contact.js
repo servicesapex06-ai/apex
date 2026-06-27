@@ -38,7 +38,7 @@ module.exports = async function handler(req, res) {
       },
       body: JSON.stringify({
         from: 'Apex Dépannage <onboarding@resend.dev>',
-        to: ['contact@apexdepannage.fr'],
+        to: ['services.apex06@gmail.com'],
         reply_to: email || undefined,
         subject: sujet,
         html,
@@ -48,7 +48,7 @@ module.exports = async function handler(req, res) {
     if (!r.ok) {
       const err = await r.text();
       console.error('Resend error:', err);
-      return res.status(500).json({ error: 'Erreur envoi email', detail: err });
+      return res.status(500).json({ error: 'Erreur envoi email' });
     }
 
     return res.status(200).json({ ok: true });
