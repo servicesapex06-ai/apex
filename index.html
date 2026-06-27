@@ -457,8 +457,9 @@
                 <option>Stockage</option><option>Gardiennage</option>
               </select>
             </div>
-            <div class="field full"><label>Véhicule (marque, modèle, année)</label><input placeholder="Ex. Honda Civic 2020"></div>
-            <div class="field full"><button type="submit" class="btn btn-orange" style="width:100%;justify-content:center">Demander une intervention</button></div>
+            <div class="field full"><label>Véhicule (marque, modèle, année)</label><input name="vehicule" placeholder="Ex. Honda Civic 2020"></div>
+            <div class="field full"><button type="submit" id="rappel-btn" class="btn btn-orange" style="width:100%;justify-content:center">Demander une intervention</button></div>
+            <div id="rappel-msg" style="display:none;margin-top:12px;padding:14px 18px;border-radius:8px;font-size:15px;font-weight:600"></div>
           </div>
           <div class="form-note">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
@@ -550,10 +551,35 @@ var form=document.getElementById('rappel');
 if(form){
   form.addEventListener('submit',function(e){
     e.preventDefault();
-    var btn=form.querySelector('button[type=submit]');
-    btn.textContent='Merci ! Nous vous rappelons.';
-    btn.style.background='#1f9d55';
-    setTimeout(function(){btn.textContent='Demander une intervention';btn.style.background='';form.reset();},4000);
+    var inputs=form.querySelectorAll('input,select');
+    var btn=document.getElementById('rappel-btn');
+    var msg=document.getElementById('rappel-msg');
+    var nom=inputs[0]?inputs[0].value:'';
+    var tel=inputs[1]?inputs[1].value:'';
+    var localisation=inputs[2]?inputs[2].value:'';
+    var type=form.querySelector('select')?form.querySelector('select').value:'';
+    var vehicule=form.querySelector('input[name=vehicule]')?form.querySelector('input[name=vehicule]').value:'';
+    btn.disabled=true;btn.textContent='Envoi en cours…';
+    fetch('/api/contact',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({nom:nom,tel:tel,localisation:localisation,type:type,vehicule:vehicule})
+    }).then(function(r){return r.json();}).then(function(d){
+      if(d.ok){
+        msg.style.display='block';msg.style.background='#dcfce7';msg.style.color='#15803d';
+        msg.textContent='Demande envoyée ! Nous vous rappelons très rapidement.';
+        btn.textContent='Envoyé ✓';btn.style.background='#1f9d55';
+        form.reset();
+      } else {
+        msg.style.display='block';msg.style.background='#fee2e2';msg.style.color='#b91c1c';
+        msg.textContent='Erreur lors de l\'envoi. Appelez le 06 24 73 06 72.';
+        btn.disabled=false;btn.textContent='Demander une intervention';
+      }
+    }).catch(function(){
+      msg.style.display='block';msg.style.background='#fee2e2';msg.style.color='#b91c1c';
+      msg.textContent='Erreur réseau. Appelez le 06 24 73 06 72.';
+      btn.disabled=false;btn.textContent='Demander une intervention';
+    });
   });
 }
 

@@ -132,7 +132,8 @@
               </select>
             </div>
             <div class="field full"><label>Message (optionnel)</label><textarea name="message" rows="4" placeholder="Décrivez brièvement votre situation ou votre demande" style="resize:vertical"></textarea></div>
-            <div class="field full"><button type="submit" class="btn btn-orange" style="width:100%;justify-content:center;font-size:18px;padding:16px 26px"><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-1-.3-.1-.5-.1-.7.2s-.8 1-1 1.2-.4.2-.7 0c-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5s.1-.3 0-.5-.7-1.7-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4s-1 1-1 2.4 1.1 2.8 1.2 3c.2.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3M12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.3-.4C2.5 15.7 2 13.9 2 12 2 6.5 6.5 2 12 2s10 4.5 10 10-4.5 10-10 10m0-22C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6c1.7.9 3.7 1.4 5.8 1.4C18.6 24 24 18.6 24 12S18.6 0 12 0"/></svg>Envoyer ma demande sur WhatsApp →</button></div>
+            <div class="field full"><button type="submit" id="contact-btn" class="btn btn-orange" style="width:100%;justify-content:center;font-size:18px;padding:16px 26px">Envoyer ma demande</button></div>
+            <div id="contact-msg" style="display:none;margin-top:12px;padding:14px 18px;border-radius:8px;font-size:15px;font-weight:600"></div>
           </div>
         </form>
       </div>
@@ -241,8 +242,33 @@ if(cForm){
   cForm.addEventListener('submit',function(e){
     e.preventDefault();
     var f=e.target;
-    var text='Nouvelle demande via site\nNom : '+f.nom.value+' '+f.prenom.value+'\nTél : '+f.tel.value+'\nEmail : '+f.email.value+'\nLocalisation : '+f.localisation.value+'\nType : '+f.type.value+'\nMessage : '+(f.message.value||'Aucun');
-    window.open('https://wa.me/33624730672?text='+encodeURIComponent(text),'_blank');
+    var btn=document.getElementById('contact-btn');
+    var msg=document.getElementById('contact-msg');
+    btn.disabled=true;btn.textContent='Envoi en cours…';
+    fetch('/api/contact',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({
+        prenom:f.prenom.value,nom:f.nom.value,tel:f.tel.value,
+        email:f.email.value,localisation:f.localisation.value,
+        type:f.type.value,message:f.message.value
+      })
+    }).then(function(r){return r.json();}).then(function(d){
+      if(d.ok){
+        msg.style.display='block';msg.style.background='#dcfce7';msg.style.color='#15803d';
+        msg.textContent='Demande envoyée ! Nous vous recontactons très rapidement.';
+        btn.textContent='Envoyé ✓';btn.style.background='#1f9d55';
+        f.reset();
+      } else {
+        msg.style.display='block';msg.style.background='#fee2e2';msg.style.color='#b91c1c';
+        msg.textContent='Erreur lors de l\'envoi. Appelez-nous directement au 06 24 73 06 72.';
+        btn.disabled=false;btn.textContent='Envoyer ma demande';
+      }
+    }).catch(function(){
+      msg.style.display='block';msg.style.background='#fee2e2';msg.style.color='#b91c1c';
+      msg.textContent='Erreur réseau. Appelez-nous directement au 06 24 73 06 72.';
+      btn.disabled=false;btn.textContent='Envoyer ma demande';
+    });
   });
 }
 </script>
