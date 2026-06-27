@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://apex-depannage.fr/</loc>
+    <loc>https://apexdepannage.fr/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://apex-depannage.fr/depannage-nice</loc>
+    <loc>https://apexdepannage.fr/depannage-nice</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://apex-depannage.fr/remorquage-nice</loc>
+    <loc>https://apexdepannage.fr/remorquage-nice</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://apex-depannage.fr/enlevement-epaves-nice</loc>
+    <loc>https://apexdepannage.fr/enlevement-epaves-nice</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://apex-depannage.fr/tarifs</loc>
+    <loc>https://apexdepannage.fr/tarifs</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://apex-depannage.fr/contact</loc>
+    <loc>https://apexdepannage.fr/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://apex-depannage.fr/zones/depannage-nice-aeroport</loc>
+    <loc>https://apexdepannage.fr/zones/depannage-nice-aeroport</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://apex-depannage.fr/zones/depannage-nice-promenade-anglais</loc>
+    <loc>https://apexdepannage.fr/zones/depannage-nice-promenade-anglais</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://apex-depannage.fr/zones/depannage-monaco</loc>
+    <loc>https://apexdepannage.fr/zones/depannage-monaco</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://apex-depannage.fr/zones/depannage-cannes</loc>
+    <loc>https://apexdepannage.fr/zones/depannage-cannes</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://apex-depannage.fr/zones/depannage-antibes</loc>
+    <loc>https://apexdepannage.fr/zones/depannage-antibes</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
