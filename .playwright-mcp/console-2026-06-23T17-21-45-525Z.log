@@ -1,9 +1,0 @@
-[     303ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8080/img/hero.png:0
-[   51531ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8080/img/about.png:0
-[   51606ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8080/img/hero.png?v=2:0
-[   53960ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8080/img/about.png:0
-[   54789ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8080/img/about.png:0
-[   55771ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8080/depannage-nice:0
-[   57201ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8080/img/about.png:0
-[   58571ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8080/img/about.png:0
-[   68163ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8080/img/hero.png:0
