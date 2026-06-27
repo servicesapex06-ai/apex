@@ -37,8 +37,8 @@ module.exports = async function handler(req, res) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'Apex Dépannage <onboarding@resend.dev>',
-        to: ['services.apex06@gmail.com'],
+        from: 'Apex Dépannage <contact@apexdepannage.fr>',
+        to: ['contact@apexdepannage.fr'],
         reply_to: email || undefined,
         subject: sujet,
         html,
